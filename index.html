@@ -1,11 +1,623 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="Images/İticketfavicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>iTicket.AZ — biletlərin onlayn satışı</title>
+  <link rel="stylesheet" href="Css/index.css">
 </head>
+
 <body>
-    
+  <div class="container">
+    <div class="container-2">
+      <section class="section-1">
+        <div class="slider">
+          <div class="left-div">
+            <button id="left">
+              <span><i class="fa-solid fa-angle-left"></i></span>
+            </button>
+          </div> <!-- left-div kapatıldı -->
+
+          <div class="slides-container">
+            <div class="slide active"><img src="Images/person-1.jpg" alt="Slide 1"></div>
+            <div class="slide"><img src="Images/person-2.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="Images/person-3.jpg" alt="Slide 3"></div>
+            <div class="slide"><img src="Images/person-4.jpg" alt="Slide 4"></div>
+            <div class="slide"><img src="Images/person-5.jpg" alt="Slide 5"></div>
+          </div>
+
+          <div class="right-div">
+            <button id="right"><i class="fa-solid fa-angle-right"></i></button>
+          </div>
+        </div> <!-- slider kapatıldı -->
+      </section>
+
+
+      <div class="head">
+        <div class="logo">
+          <svg viewBox="0 0 160 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M28.4104 40.7111V42.6294H6.7431C3.01861 42.6294 0.000244141 39.6111 0.000244141 35.8874V7.15433C0.000244141 3.42616 3.01861 0.408203 6.7431 0.408203H28.4104V2.3229C26.7358 2.34902 25.377 3.71555 25.377 5.39677C25.377 7.07514 26.7358 8.44167 28.4104 8.46412V10.3862C26.7358 10.4127 25.377 11.7751 25.377 13.4572C25.377 15.1392 26.7358 16.5049 28.4104 16.5278V18.4462C26.7358 18.4727 25.377 19.8351 25.377 21.5204C25.377 23.1988 26.7358 24.5649 28.4104 24.5874V26.5098C26.7358 26.5323 25.377 27.8984 25.377 29.5804C25.377 31.2584 26.7358 32.6286 28.4104 32.6515V34.5694C26.7358 34.5923 25.377 35.9584 25.377 37.6409C25.377 39.3221 26.7358 40.6886 28.4104 40.7111"
+              fill="#FFDC00"></path>
+            <path
+              d="M124.469 30.4205C124.469 31.8278 123.327 32.9691 121.919 32.9691C120.512 32.9691 119.374 31.8278 119.374 30.4205C119.374 29.0123 120.512 27.8711 121.919 27.8711C123.327 27.8711 124.469 29.0123 124.469 30.4205Z"
+              fill="#FFDC00"></path>
+            <path d="M11.6436 32.3849H15.4317V17.1028L11.6436 18.3792V32.3849Z" fill="#828283"></path>
+            <path
+              d="M13.5391 10.6494C12.1313 10.6494 10.9897 11.7947 10.9897 13.1988C10.9897 14.6061 12.1313 15.7474 13.5391 15.7474C14.9468 15.7474 16.0885 14.6061 16.0885 13.1988C16.0885 11.7947 14.9468 10.6494 13.5391 10.6494Z"
+              fill="#828283"></path>
+            <g class="text-color" style="fill: #fff">
+              <path
+                d="M38.7801 29.0307C38.2507 28.7414 37.9874 28.0471 37.9874 26.9585V20.1295H42.3205V17.1005H37.9874V13.1699L34.196 14.4087V17.1005H31.4099V20.1295H34.196V26.7222C34.196 30.1005 35.9303 31.5536 36.9625 32.116C37.845 32.6009 38.7947 32.796 39.7299 32.796C41.3858 32.796 43.0037 32.1805 44.1454 31.4524L42.1813 28.6209C41.0552 29.3422 39.5458 29.4507 38.7801 29.0307Z">
+              </path>
+              <path
+                d="M48.6942 10.6494C47.2864 10.6494 46.1444 11.7947 46.1444 13.1988C46.1444 14.6061 47.2864 15.7474 48.6942 15.7474C50.102 15.7474 51.2436 14.6061 51.2436 13.1988C51.2436 11.7947 50.102 10.6494 48.6942 10.6494Z">
+              </path>
+              <path d="M46.7986 32.3849H50.5867V17.1028L46.7986 18.3792V32.3849Z"></path>
+              <path
+                d="M61.7797 20.1442C63.5483 20.1442 65.065 21.1956 65.7744 22.6969L69.0711 20.7977C67.7005 18.1626 64.9487 16.3564 61.7797 16.3564C57.2442 16.3564 53.5573 20.043 53.5573 24.5777C53.5573 29.1087 57.2442 32.7952 61.7797 32.7952C64.9487 32.7952 67.7005 30.9895 69.0711 28.3581L65.7744 26.4548C65.065 27.9569 63.5483 29.0079 61.7797 29.0079C59.3356 29.0079 57.3495 27.0181 57.3495 24.5777C57.3495 22.134 59.3356 20.1442 61.7797 20.1442Z">
+              </path>
+              <path
+                d="M85.5175 16.9143H80.2273L75.2224 22.0498V9.95801L71.4342 11.2347V32.3845H75.2224V27.4821L76.2701 26.4119L81.2787 32.3845H86.2273L78.924 23.6825L85.5175 16.9143Z">
+              </path>
+              <path
+                d="M90.4653 22.6707C91.1788 21.1838 92.6878 20.1446 94.449 20.1446C96.2062 20.1446 97.7155 21.1838 98.4323 22.6707H90.4653ZM94.449 16.3564C89.9172 16.3564 86.2266 20.0429 86.2266 24.5776C86.2266 29.1082 89.9172 32.7952 94.449 32.7952C97.4788 32.7952 100.126 31.1433 101.553 28.6919L98.2596 26.796C97.4935 28.1103 96.0821 29.007 94.449 29.007C92.3955 29.007 90.6792 27.5956 90.1764 25.6964H102.585C102.634 25.3282 102.668 24.9568 102.668 24.5776C102.668 23.9209 102.585 23.2821 102.435 22.6707C101.575 19.0556 98.3241 16.3564 94.449 16.3564Z">
+              </path>
+              <path
+                d="M114.333 28.6206C113.206 29.3418 111.697 29.4541 110.927 29.03C110.401 28.741 110.135 28.0504 110.135 26.9614V20.1292H114.472V17.1031H110.135V13.1729L106.347 14.4116V17.1031H103.561V20.1292H106.347V26.721C106.347 30.1035 108.078 31.5524 109.11 32.1194C109.996 32.6039 110.946 32.7953 111.881 32.7953C113.537 32.7953 115.155 32.1794 116.293 31.4512L114.333 28.6206Z">
+              </path>
+            </g>
+            <path
+              d="M138.01 28.0396C138.891 27.1898 139.332 26.089 139.332 24.7368C139.332 23.3849 138.891 22.2792 138.01 21.4188C137.129 20.558 136.115 20.1278 134.968 20.1278C133.718 20.1278 132.688 20.5482 131.879 21.3878C131.07 22.2278 130.665 23.3441 130.665 24.7368C130.665 26.1298 131.07 27.2413 131.879 28.0702C132.688 28.9 133.718 29.3147 134.968 29.3147C136.115 29.3147 137.129 28.8898 138.01 28.0396ZM143.388 32.3878H139.332V31.1894C137.959 32.2955 136.269 32.8486 134.261 32.8486C132.233 32.8486 130.47 32.08 128.975 30.5445C127.479 29.0078 126.732 27.0723 126.732 24.7368C126.732 22.4017 127.484 20.4613 128.99 18.9147C130.496 17.3678 132.253 16.5947 134.261 16.5947C136.289 16.5947 137.979 17.158 139.332 18.2845V17.0551H143.388V32.3878Z"
+              fill="#828283"></path>
+            <path
+              d="M159.829 32.3876H146.215V29.7451L154.451 20.3741H146.43V17.0553H159.46V19.7594L151.224 29.0692H159.829V32.3876Z"
+              fill="#828283"></path>
+          </svg>
+        </div>
+        <div class="head-ul">
+          <ul class="head-all">
+            <ul class="ulx">
+              <li><a href="#">Bütün tədbirlər</a></li>
+              <li><a href="#">Konsert</a></li>
+              <li><a href="#">Tamaşa</a></li>
+              <li><a href="#">Uşaqlar</a></li>
+              <li><a href="#">İdman</a></li>
+            </ul>
+            <li id="drop-open"><a href="#"><i class="fa-solid fa-ellipsis"></i></a></li>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li><a href="#">Hayal Kahvesi</a></li>
+              <li><a href="#">Muzey</a></li>
+              <li><a href="#">Sərgilər</a></li>
+              <li><a href="#">Film</a></li>
+              <li><a href="#">Sirk</a></li>
+              <li><a href="#">Turizm</a></li>
+              <li><a href="#">Seminar</a></li>
+              <li><a href="#">Master Klass</a></li>
+              <li><a href="#">Digər</a></li>
+              <li><a href="#">Məhsullar</a></li>
+              <li><a href="#">360°/VR</a></li>
+            </ul>
+          </ul>
+        </div>
+        <div class="head-icons">
+          <ul>
+            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li class="user"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      </section>
+    </div>
+
+    <section class="section-2">
+      <div class="populyar">
+        <h1>Populyar tədbirlər</h1>
+      </div>
+      <div class="sec2-btns">
+      <div class="sec2-carts-btn">
+        <button class="sec2-left">
+          <span><i class="fa-solid fa-angle-left"></i></span>
+        </button>
+      </div>
+      <div class="sec2-carts-btn2">
+        <button class="sec2-right">
+          <span><i class="fa-solid fa-angle-right"></i></span>
+        </button>
+      </div>
+      </div>
+      <div class="sec2-carts">
+
+
+        <div class="image-wrapper">
+
+          <div class="cart1-img">
+            <img src="Images/cart-2.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">14 fevral 2025</p>
+            <p class="p-2">Baki Konqres</p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">30 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">Alsu</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">14 fevral 2025 • Baku Konqres Merkezi</p>
+          </div>
+        </div>
+
+
+        <div class="image-wrapper">
+          <div class="cart1-img">
+            <img src="Images/cart-4.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">15 fevral 2025</p>
+            <p class="p-2">"Tufandag" </p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">35 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">Sound Of Caucaus 2</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">15 fevral 2025 • "Tufandag" Qış-Yay Mərkəzi</p>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <div class="cart1-img">
+            <img src="Images/cart-5.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">08 Mart 2025</p>
+            <p class="p-2">Jolley Joker Baku</p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">60 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">PIZAA - Böyük Solo Konsert</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 mart 2025 • Jolly Joker Baku</p>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <div class="cart1-img">
+            <img src="Images/cart-6.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">15 mart 2025</p>
+            <p class="p-2">Baki Idman Sarayi </p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">11 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">Nikulin Sirki Bakıda</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">15 mart 2025 • Bakı İdman Sarayı</p>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <div class="cart1-img">
+            <img src="Images/cart-1.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">24 iyul 2025</p>
+            <p class="p-2">Sea Breeze</p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">30 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">DREAM FEST 2025</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">24 iyul 2025 • Sea Breeze Resort</p>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <div class="cart1-img">
+            <img src="Images/cart-3.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">08 fevral 2025</p>
+            <p class="p-2">Best Place Baku</p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">8 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">"Old City JAZZ nights"</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral 2025 • Best Place Baku</p>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <div class="cart1-img">
+            <img src="Images/cart-7.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">02 mart 2025</p>
+            <p class="p-2">Baki Musiqi</p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">15 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">Hanz Zimmar Kainati</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">02 mart 2025 • Baki Musiqi Akademiyasi</p>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <div class="cart1-img">
+            <img src="Images/cart-8.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">05 mart 2025</p>
+            <p class="p-2">Circuz Sea Breeze</p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">15 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">Italiyan Sirki - Flavio</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">05 mart 2025 • Circuz Sea Breeze</p>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <div class="cart1-img">
+            <img src="Images/cart-9.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">21 mart 2025</p>
+            <p class="p-2">Heydər Əliyev Sarayı</p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">8 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">Novruz macərası</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">21 mart 2025 • Heydər Əliyev Sarayı</p>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <div class="cart1-img">
+            <img src="Images/cart-10.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">03 aprel 2025</p>
+            <p class="p-2">Hayal Kahvesi</p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">10 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">"Ma vibe" party</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">03 aprel 2025 • Hayal Kahvesi</p>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <div class="cart1-img">
+            <img src="Images/cart-11.jpg" alt="Dream Fest Poster" class="festival-image">
+          </div>
+          <div class="cart1-p">
+            <p class="p-1">13 aprel 2025</p>
+            <p class="p-2">Baku Musiqi Akademiyasi</p>
+          </div>
+          <div class="cart1-a">
+            <a href="#" class="cta-button">15 ₼-dan</a>
+          </div>
+          <div class="info">
+            <h3 style="margin-left: 20px;">Karmen - Flamenko</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">13 aprel 2025 • Baku Musiqi Akademiyasi</p>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+      
+  <div class="reklam-1">
+    <img src="Images/reklam-1.jpg" alt="reklam-1">
+
+  </div>
+  
+  <section class="section-2">
+    <div class="populyar2">
+      <h1>Turizm</h1>
+    </div>
+    <div class="sec2-btns">
+    <div class="sec2-carts-btn">
+      <button class="sec2-left2">
+        <span><i class="fa-solid fa-angle-left"></i></span>
+      </button>
+    </div>
+    <div class="sec2-carts-btn2">
+      <button class="sec2-right2">
+        <span><i class="fa-solid fa-angle-right"></i></span>
+      </button>
+    </div>
+    </div>
+    <div class="sec2-carts2">
+
+
+      <div class="image-wrapper">
+
+        <div class="cart1-img">
+          <img src="Images/cart-12.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">2 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">Lahıc Tarix - Diyarşünaslıq</h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral 2025 • Lahıc Tarix - Diyarşünaslıq</p>
+        </div>
+      </div>
+
+
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-13.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">3 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" >
+          
+            “Basqal” Dövlət Tarix-Mədəniyyət Qoruğunun  balansında olan "Diri Baba türbəsi" abidəsi
+            
+          </h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral 2025 •  "Diri Baba türbəsi </p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-14.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">21 fevral 2025</p>
+  
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">1 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">
+          Şuşa Mehmandarovların malikanə kompleksində "XIX əsr Qarabağ zadəganının evi" sərgisi
+        </h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">21 fevral 2025 • 
+            Mehmandarovların malikanə kompleksində "XIX əsr Qarabağ zadəganının evi" sərgisi
+          </p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-15.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">20 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">
+            Şuşa şəhəri üzrə bələdçi xidməti
+        </h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral 2025 • Şuşa Şəhəri</p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-16.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+ 
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">3 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">
+            «Palçıq Vulkanları» Turizm Kompleksi
+          </h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral 2025 • 
+            Qobustan Palçıq Vulkanları Turizm Kompleksi
+          </p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-17.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+ 
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">1 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">
+            “Atəşgah məbədi” Dövlət Tarix-Memarlıq Qoruğu
+          </h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral 2025 • 
+            “Atəşgah məbədi”
+          </p>
+        </div>
+      </div>
+ 
+     
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-18.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">1 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">
+            “Yanar dağ” Dövlət Tarix-Mədəniyyət və Təbiət Qoruğu
+          </h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral 2025 • 
+            “Yanar dağ” Dövlət Tarix-Mədəniyyət və Təbiət Qoruğu
+          </p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/carrt-19.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">15 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">              Yanardağ &amp; Atəşgah kombinə olunmuş bilet</h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral 2025 • 
+            Yanardağ & Atəşgah
+          </p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-20.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral  2025</p>
+       
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">1 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">Şəkixanovlar evi</h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral 2025 • Şəkixanovlar evi</p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-21.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+         
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">1 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">
+            Kiş Alban Məbədi
+          </h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral 2025 • 
+            Kiş Alban Məbədi
+          </p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-22.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+      
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">1 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">
+            “Basqal” Dövlət Tarix-Mədəniyyət Qoruğu
+          </h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral  2025 • 
+            “Basqal” Dövlət Tarix-Mədəniyyət Qoruğu
+          </p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-23.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+      
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">1 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">
+            Şəki Xan Məscidi Sərgi Zalı
+          </h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral  2025 • 
+            
+            Şəki Xan məscidi sərgi zalı
+              
+          </p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <div class="cart1-img">
+          <img src="Images/cart-24.jpg" alt="Dream Fest Poster" class="festival-image">
+        </div>
+        <div class="cart1-p">
+          <p class="p-1">08 fevral 2025</p>
+      
+        </div>
+        <div class="cart1-a">
+          <a href="#" class="cta-button">1 ₼-dan</a>
+        </div>
+        <div class="info">
+          <h3 style="margin-left: 20px;">
+
+            Şəki Dövlət Rəsm Qalereyası
+            
+          </h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">08 fevral  2025 • 
+            
+            Şəki Dövlət Rəsm Qalereyası
+            
+              
+          </p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <div class="reklam-1">
+    <img src="Images/reklam-2.gif" alt="">
+  </div>
+  
+  </div>
+  </div>
+
+
+  <script src="Javascript/index.js"></script>
 </body>
+
 </html>
