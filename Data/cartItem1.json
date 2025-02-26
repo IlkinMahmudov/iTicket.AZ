@@ -1,0 +1,104 @@
+{
+    "cartItems": [
+      {
+        "image": ["images/cart-1.jpg", "images/cart-1x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "24 iyul 2025",
+        "eventLocation": "Sea Breeze",
+        "price": "30 ₼-dan",
+        "artistName": "DREAM FEST 2025",
+        "fullDateLocation": "24 iyul 2025 • Sea Breeze Resort"
+      },
+      {
+        "image": ["images/cart-2.jpg", "images/cart-2x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "14 fevral 2025",
+        "eventLocation": "Baki Konqres",
+        "price": "30 ₼-dan",
+        "artistName": "Alsu",
+        "fullDateLocation": "14 fevral 2025 • Baku Konqres Merkezi"
+      },
+      {
+        "image": ["images/cart-3.jpg", "images/cart-3x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "08 fevral 2025",
+        "eventLocation": "Best Place Baku",
+        "price": "8 ₼-dan",
+        "artistName": "Old City JAZZ nights",
+        "fullDateLocation": "08 fevral 2025 • Best Place Baku"
+      },
+      {
+        "image": ["images/cart-4.jpg", "images/cart-4x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "15 fevral 2025",
+        "eventLocation": "Tufandag",
+        "price": "35 ₼-dan",
+        "artistName": "Sound Of Caucasus 2",
+        "fullDateLocation": "15 fevral 2025 • Tufandag Qış-Yay Mərkəzi"
+      },
+      {
+        "image": ["images/cart-5.jpg", "images/cart-5x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "08 Mart 2025",
+        "eventLocation": "Jolley Joker Baku",
+        "price": "60 ₼-dan",
+        "artistName": "PIZAA - Böyük Solo Konsert",
+        "fullDateLocation": "08 mart 2025 • Jolly Joker Baku"
+      },
+      {
+        "image": ["images/cart-6.jpg", "images/cart-6x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "15 mart 2025",
+        "eventLocation": "Baki Idman Sarayi",
+        "price": "11 ₼-dan",
+        "artistName": "Nikulin Sirki Bakıda",
+        "fullDateLocation": "15 mart 2025 • Bakı İdman Sarayı"
+      },
+      {
+        "image": ["images/cart-7.jpg", "images/cart-7x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "02 mart 2025",
+        "eventLocation": "Baki Musiqi",
+        "price": "15 ₼-dan",
+        "artistName": "Hanz Zimmar Kainati",
+        "fullDateLocation": "02 mart 2025 • Baki Musiqi Akademiyasi"
+      },
+      {
+        "image": ["images/cart-8.jpg", "images/cart-8x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "05 mart 2025",
+        "eventLocation": "Circuz Sea Breeze",
+        "price": "15 ₼-dan",
+        "artistName": "Italiyan Sirki - Flavio",
+        "fullDateLocation": "05 mart 2025 • Circuz Sea Breeze"
+      },
+      {
+        "image": ["images/cart-9.jpg", "images/cart-9x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "21 mart 2025",
+        "eventLocation": "Heydər Əliyev Sarayı",
+        "price": "8 ₼-dan",
+        "artistName": "Novruz macərası",
+        "fullDateLocation": "21 mart 2025 • Heydər Əliyev Sarayı"
+      },
+      {
+        "image": ["images/cart-10.jpg", "images/cart-10x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "03 aprel 2025",
+        "eventLocation": "Hayal Kahvesi",
+        "price": "10 ₼-dan",
+        "artistName": "Ma vibe party",
+        "fullDateLocation": "03 aprel 2025 • Hayal Kahvesi"
+      },
+      {
+        "image": ["images/cart-11.jpg", "images/cart-11x.jpg"],
+        "altText": "Dream Fest Poster",
+        "eventDate": "13 aprel 2025",
+        "eventLocation": "Baku Musiqi Akademiyasi",
+        "price": "15 ₼-dan",
+        "artistName": "Karmen - Flamenko",
+        "fullDateLocation": "13 aprel 2025 • Baku Musiqi Akademiyasi"
+      }
+    ]
+  }
+  

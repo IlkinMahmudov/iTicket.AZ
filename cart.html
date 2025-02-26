@@ -1,44 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="Images/İticketfavicon.jpg" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>iTicket.AZ — biletlərin onlayn satışı</title>
-  <link rel="stylesheet" href="Css/index.css">
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="Css/cart.css">
+    <link rel="stylesheet" href="Css/index.css">
+    <title>Cart</title>
 </head>
-
 <body>
   <div class="container">
-    <div class="container-2">
-      <section class="section-1">
-        <div class="slider">
-          <div class="left-div">
-            <button id="left">
-              <span><i class="fa-solid fa-angle-left"></i></span>
-            </button>
-          </div> 
-
-          <div class="slides-container">
-            <div class="slide active"><img src="Images/person-1.jpg" alt="Slide 1"></div>
-            <div class="slide"><img src="Images/person-2.jpg" alt="Slide 2"></div>
-            <div class="slide"><img src="Images/person-3.jpg" alt="Slide 3"></div>
-            <div class="slide"><img src="Images/person-4.jpg" alt="Slide 4"></div>
-            <div class="slide"><img src="Images/person-5.jpg" alt="Slide 5"></div>
-          </div>
-
-          <div class="right-div">
-            <button id="right"><i class="fa-solid fa-angle-right"></i></button>
-          </div>
-        </div> 
-      </section>
-
-
-      <div class="head">
+    <div class="head">
         <div class="logo">
      
      <a href="index.html">    <svg viewBox="0 0 160 43" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -112,167 +86,113 @@
             <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
             <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
             <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
-            <li class="user"><a href="#"><i class="fa-solid fa-user" id="open_form"></i></a></li>
+            <li class="user">
+              <a href="#" id="open_form">
+                <i class="fa-solid fa-user"></i>
+              </a>
+            </li>
           </ul>
         </div>
+       
       </div>
-      </section>
-    </div>
-    <section class="section-2">
-      <div class="populyar">
-        <h1>Populyar tədbirlər</h1>
-      </div>
-      <div class="sec2-btns">
-        <div class="sec2-carts-btn">
-          <button class="sec2-left">
-            <span><i class="fa-solid fa-angle-left"></i></span>
-          </button>
-        </div>
-        <div class="sec2-carts-btn2">
-          <button class="sec2-right">
-            <span><i class="fa-solid fa-angle-right"></i></span>
-          </button>
-        </div>
-      </div>
-      <div class="sec2-carts" id="sec2-carts"></div> <!-- Buraya etkinlikler eklenecek -->
-    </section>
-    
-      
-  <div class="reklam-1">
-    <img src="Images/reklam-1.jpg" alt="reklam-1">
-
-  </div>
-  <section class="section-2">
-    <div class="populyar2">
-      <h1>Turizm</h1>
-    </div>
-    <div class="sec2-btns">
-      <div class="sec2-carts-btn">
-        <button class="sec2-left2">
-          <span><i class="fa-solid fa-angle-right"></i></span>
-        </button>
-      </div>
-      <div class="sec2-carts-btn2">
-        <button class="sec2-right2">
-          <span><i class="fa-solid fa-angle-right"></i></span>
-        </button>
-      </div>
-    </div>
-    <div class="sec2-carts2" id="sec2-carts2">
-      <!-- Etkinlik kartları buraya eklenecek -->
-    </div>
-  </section>
 
 
-     
-
-
-    </div>
-  </section>
-
-  <div class="reklam-1"> 
-    <img src="Images/reklam-2.gif" alt="">
-  </div>
-  </div>
-
-
-  <section class="section-2">
-    <div class="populyar">
-      <h1>Tamaşalar</h1>
-    </div>
-    <div class="sec2-btns">
-      <div class="sec2-carts-btn">
-        <button class="sec3-left">
-          <span><i class="fa-solid fa-angle-right"></i></span>
-        </button>
-      </div>
-      <div class="sec2-carts-btn2">
-        <button class="sec3-right">
-          <span><i class="fa-solid fa-angle-right"></i></span>
-        </button>
-      </div>
-    </div>
-    <div class="sec2-carts2" id="sec3-carts3">
-
-    </div>
-  </section>
-  <section class="section-2">
-    <div class="populyar">
-      <h1>Uşaqlar</h1>
-    </div>
-    <div class="sec2-btns">
-      <div class="sec2-carts-btn">
-        <button class="sec4-left">
-          <span><i class="fa-solid fa-angle-right"></i></span>
-        </button>
-      </div>
-      <div class="sec2-carts-btn2">
-        <button class="sec4-right">
-          <span><i class="fa-solid fa-angle-right"></i></span>
-        </button>
-      </div>
-    </div>
-    <div class="sec2-carts2" id="sec4-carts4">
-      
-    </div>
-  </section>
-
-
-  <div class="form_login" id="form_login">
-    <div class="closeForm">
-      <i class="fa-solid fa-x" id="close_btn"></i>
-  </div>
-  <span class="login-background"></span>
-  <div class="login">
-      <h2>Daxil Ol</h2>
-  </div>
-  <div class="login-input">
-      <input type="text" name="login" id="login-email" placeholder="E-poçt">
-      <input type="password" name="password" placeholder="Şifrə">
-
-  </div>
-  <div class="login-btn">
-      <button type="submit" class="login-btn">Daxil ol</button>
-  </div>
-  <div class="modal-footer">
-      iTicket.AZ-da yenisiniz?
-      <a href="#" id="form_x">Qeydiyyatdan keçin</a>
-  </div>
   
+      </div>
+      <div id="cart-details"></div>
+    <div class="buttons">
+    <div class="cart-price">   </div>
+    <button id="heartButton" class="heart">
+      <i class="fa fa-heart"></i>
+    </button>
+    <div class="cart-share">   
+    <button id="share" class="heart2">
+      <i class="fa fa-share"></i>
+    </button>
+  </div>
+  </div>
+
+
+  <div class="share-box" id="share_box">
+    <div class="icon-close" >
+      <i class="fa-solid fa-x" id="close_box"></i>
+    </div>
+    <h2>Paylaş</h2>
+    <div class="share-icons">
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+        <a href="#"><i class="fab fa-vk"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+    </div>
+    <div class="copy-section">
+    
+        <p>Və ya linki kopyala</p>
+        <div class="copy-input">
+        <input type="text" >
+        <button class="copy-btn">KOPYALA</button>
+      </div>
+
+      </div>
+
+
+
+    </div>
+
+</div>
+
+<div class="form_login" id="form_login">
+  <div class="closeForm">
+    <i class="fa-solid fa-x" id="close_btn"></i>
+</div>
+<span class="login-background"></span>
+<div class="login">
+    <h2>Daxil Ol</h2>
+</div>
+<div class="login-input">
+    <input type="text" name="login" id="login-email" placeholder="E-poçt">
+    <input type="password" name="password" placeholder="Şifrə">
+
+</div>
+<div class="login-btn">
+    <button type="submit" class="login-btn">Daxil ol</button>
+</div>
+<div class="modal-footer">
+    iTicket.AZ-da yenisiniz?
+    <a href="#" id="form_x">Qeydiyyatdan keçin</a>
+</div>
+
 </div>
 <div class="form_register" id="form_register">
-  <div class="closeForm">
-      <i class="fa-solid fa-x" id="close_btn2"></i>
-  </div>
-  <span class="login-background"></span>
-  <div class="login">
-      <h2>Qeydiyyat</h2>
-  </div>
-  <div class="login-input">
-      <input type="text" name="name" id="login-name" placeholder="Ad">
-      <input type="text" name="surname" id="login-surname" placeholder="Soyad">
-      <input type="tel" name="mobile" id="login-mobile" placeholder="Mobil nömrə">
-      <input type="text" name="login" id="login-email" placeholder="E-poçt">
-      <input type="password" name="password" placeholder="Şifrə">
-      <input type="password" name="password" placeholder="Şifrənizi Təkrarlayın">
+<div class="closeForm">
+    <i class="fa-solid fa-x" id="close_btn2"></i>
+</div>
+<span class="login-background"></span>
+<div class="login">
+    <h2>Qeydiyyat</h2>
+</div>
+<div class="login-input">
+    <input type="text" name="name" id="login-name" placeholder="Ad">
+    <input type="text" name="surname" id="login-surname" placeholder="Soyad">
+    <input type="tel" name="mobile" id="login-mobile" placeholder="Mobil nömrə">
+    <input type="text" name="login" id="login-email" placeholder="E-poçt">
+    <input type="password" name="password" placeholder="Şifrə">
+    <input type="password" name="password" placeholder="Şifrənizi Təkrarlayın">
 
-  </div>
-  <div class="login-btn">
-      <button type="submit" class="login-btn">Qeydiyyat</button>
-  </div>
-  <div class="modal-footer">
+</div>
+<div class="login-btn">
+    <button type="submit" class="login-btn">Qeydiyyat</button>
+</div>
+<div class="modal-footer">
 
-    Artıq qeydiyyatdan keçmisiniz?
-      
-      <a href="#" id="form_x">Daxil Olun</a>
-  </div>
+  Artıq qeydiyyatdan keçmisiniz?
+    
+    <a href="#" id="form_x">Daxil Olun</a>
+</div>
+</div>
+</div>
 </div>
 
-  <script src="Javascript/index.js"> </script>
-    </div>
-
-    </div>
-
-
+<script src="Javascript/cart.js"></script>
 </body>
 </html>
