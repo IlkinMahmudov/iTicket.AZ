@@ -1,0 +1,322 @@
+{
+  "cartItems": [
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-50-1.jpg", "Images/cart-41-2.png", "Images/cart-50x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "23 may 2025",
+      "eventLocation": "Heydər Əliyev Sarayı",
+      "price": "25",
+      "artistName": "Azad Şabanov - \"Bir Əsər\"",
+      "fullDateLocation": "23 may 2025 • Heydər Əliyev Sarayı",
+      "description": "Bu xüsusi konsert, Azad Şabanovun müxtəlif dövrlərdə yaratdığı əsərlərin ifası ilə musiqi həvəskarlarını bir araya gətirəcək. Bu gecə, sənətçinin musiqi dünyasında qazandığı uğurları və onun özünəməxsus tərzini daha yaxından hiss edəcəyik.",
+      "maxAge":"3+ / Azərbaycanca"
+    },
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-51-1.jpg", "Images/cart-41-2.png", "Images/cart-51x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "07 may 2025",
+      "eventLocation": "Sumqayıt şəhəri Kimyaçı Mədəniyyət Sarayı",
+      "price": "20",
+      "artistName": "Bu Şəhərdə \"Saz\"- Sumqayıt",
+      "fullDateLocation": "07 may 2025 • Sumqayıt şəhəri Kimyaçı Mədəniyyət Sarayı",
+      "description": "Sumqayıtın ən prestijli mədəniyyət mərkəzində keçiriləcək bu musiqi gecəsində saz musiqisinin gözəl ifaları ilə şəhərin ruhunu dinləyəcəksiniz. Gecənin əsas məqsədi, Sazın unudulmaz melodiyalarını günümüzlə birləşdirərək, musiqi həvəskarlarına özünəməxsus bir təcrübə təqdim etməkdir.",
+      "maxAge":"6+ / Azərbaycanca"
+    },
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-52-1.jpg", "Images/cart-41-2.png", "Images/cart-52x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "28 mart 2025",
+      "eventLocation": "Milli Gimnastika Arenası",
+      "price": "7",
+      "artistName": "Bədii gimnastika üzrə beynəlxalq turnir, AGF Trophy",
+      "fullDateLocation": "28 mart 2025 • Milli Gimnastika Arenası",
+      "description": "Bu beynəlxalq turnirdə dünya səviyyəli gimnastlar iştirak edəcək və ən çətin hərəkətlərdəki bacarıqlarını nümayiş etdirəcəklər. AGF Trophy, bədii gimnastikanın ən prestijli tədbirlərindən biridir və burada hər bir nümayiş, idmanın incəliklərini və gözəlliyini əks etdirəcək.",
+      "maxAge":"6+ / Multilingual" 
+    },
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-53-1.jpg", "Images/cart-41-2.png", "Images/cart-53x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "16 mart 2025",
+      "eventLocation": "Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
+      "price": "19",
+      "artistName": "Ötən illərin mahnıları",
+      "fullDateLocation": "16 mart 2025 • Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
+      "description": "Bu konsert, keçmiş dövrlərin məşhur mahnılarını təkrar yaşatmaq və müasir auditoriya ilə bölüşmək məqsədini daşıyır. Opera Studiyasının təcrübəli ifaçıları tərəfindən səsləndirilən hər bir əsər, musiqinin təsirini və ritmini hiss edərək nostalji bir təcrübə yaşadacaq.",
+    "maxAge":"6+ / Azərbaycanca"
+    },
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-54-1.jpg", "Images/cart-54-2.png", "Images/cart-54x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "26 mart 2025",
+      "eventLocation": "Hayal Kahvesi",
+      "price": "10",
+      "artistName": "Arabic Night",
+      "fullDateLocation": "26 mart 2025 • Hayal Kahvesi",
+      "description": "Hayal Kahvesi, ərəb dünyasının musiqi və mədəniyyətini əks etdirən bu gecədə, dinamik ritmlər və ruhlandırıcı melodiyalarla dolu bir atmosfer təqdim edəcək. Ərəb musiqisinin ən tanınmış əsərləri ilə, iştirakçılar bu mədəniyyətin müxtəlifliyini və zənginliyini hiss edəcəklər.",
+    "maxAge":"16+"
+    },
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-55-1.jpg", "Images/cart-41-2.png", "Images/cart-55x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "11 mart 2025",
+      "eventLocation": "Hayal Kahvesi",
+      "price": "12",
+      "artistName": "Kadir Özel və Orkestrası",
+      "fullDateLocation": "11 mart 2025 • Hayal Kahvesi",
+      "description": "Kadir Özel və onun orkestri, klassik və müasir türk musiqisini birləşdirərək, möhtəşəm bir axşam yaşadacaq. Bu gecədə, Türk musiqisinin dərinliklərinə enib, müasir səslə ənənələri birləşdirən unikal bir təcrübə yaşamağa dəvət edirik.",
+    "maxAge":"18+ / Multilingual"
+    },
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-56-1.jpg", "Images/cart-56-2.png", "Images/cart-56x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "17 mart 2025",
+      "eventLocation": "Hayal Kahvesi",
+      "price": "10",
+      "artistName": "Rock Fest",
+      "fullDateLocation": "17 mart 2025 • Hayal Kahvesi",
+      "description": "Bu gecə, rock musiqisinin ən məşhur hitlərini dinləyəcəyiniz əsl bir festivala çevriləcək. Rock Fest, musiqinin ən enerjili janrlarını birləşdirərək, hər yaşı və üslubu olan izləyicilər üçün unudulmaz bir təcrübə təqdim edəcək.",
+    "maxAge":"18+ / Multilingual"
+    
+    },
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-57-1.jpg", "Images/cart-41-2.png", "Images/cart-57x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "04 mart 2025",
+      "eventLocation": "Bank Respublika Arena",
+      "price": "1",
+      "artistName": "Sabah FK - Araz-Naxçıvan PFK",
+      "fullDateLocation": "04 mart 2025 • Bank Respublika Arena",
+      "description": "Futbolun sevilən klublarından olan Sabah FK və Araz-Naxçıvan PFK arasında bu maraqlı qarşılaşma, futbol həvəskarlarına həyəcan dolu anlar yaşadacaq. Bu qarşılaşma, hər iki komandanın gücünü və oyun bacarıqlarını nümayiş etdirəcək.",
+      "maxAge":"6+"
+    },
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-58-1.jpg", "Images/cart-41-2.png", "Images/cart-58x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "15 mart 2025",
+      "eventLocation": "Jolly Joker Baku",
+      "price": "20",
+      "artistName": "\"iN ON iL - iN X YEARS\"",
+      "fullDateLocation": "15 mart 2025 • Jolly Joker Baku",
+      "description": "Jolly Joker Baku-da keçiriləcək bu xüsusi gecə, əfsanəvi musiqi qruplarının 10 illik yubileyini qeyd edəcək. Bu gecə, həm musiqi, həm də səhnə performansları ilə tamamilə yeni bir təcrübə təqdim edəcək.",
+    "maxAge":"iN ON iL - iN X YEARS"
+    },
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-59-1.jpg", "Images/cart-41-2.png", "Images/cart-59x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "28 iyun 2025",
+      "eventLocation": "Jolly Joker Baku",
+      "price": "45",
+      "artistName": "\"MARUV\"",
+      "fullDateLocation": "28 iyun 2025 • Jolly Joker Baku",
+      "description": "Bu gecə, müasir musiqinin ən təcrübəli ifaçılarından biri olan MARUV, Jolly Joker Baku-da enerjili bir performans sərgiləyəcək. O, dinləyiciləri özünə çəkərək, müasir ritmlər və melodiyalarla dolu unudulmaz bir təcrübə yaşadacaq.",
+    "maxAge":"18+ / Русский"
+    },
+    {
+      "category":"Yenilik",
+      "image": ["Images/cart-60-1.jpg", "Images/cart-41-2.png", "Images/cart-60x.jpg"],
+      "altText": "ALT_TEXT",
+      "eventDate": "18 mart 2025",
+      "eventLocation": "Beynəlxalq Muğam Mərkəzi",
+      "price": "5",
+      "artistName": "\"Yenə gəldi yaz ayları\" Aşıq musiqisindən ibarət konsert",
+      "fullDateLocation": "18 mart 2025 • Beynəlxalq Muğam Mərkəzi",
+      "description": "Beynəlxalq Muğam Mərkəzində keçiriləcək bu konsert, aşıq musiqisinin ən gözəl parçalarını dinləyicilərlə paylaşacaq. Musiqi və sənətin qovuşduğu bu gecə, izləyiciləri ruhlandıracaq və onlara Azərbaycan musiqisinin dərinliklərini yaşadacaq.",
+    "maxAge":"12+ / Azərbaycanca"
+    },
+    
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-61-1.jpg", "Images/cart-61-2.png", "Images/cart-61x.jpg"],
+        "altText": "ALT_TEXT",
+        "eventDate": "25 aprel 2025",
+        "eventLocation": "Jolly Joker Baku",
+        "price": "30",
+        "artistName": "Lvbel C5",
+        "fullDateLocation": "25 aprel 2025 • Jolly Joker Baku",
+        "description": "Lvbel C5-in canlı performansı ilə Jolly Joker Bakı-da əyləncəyə qoşulun! 25 aprel tarixində, möhtəşəm bir atmosferdə musiqi dolu bir gecə sizi gözləyir. Bu xüsusi konsertdə rəqs etmək və unudulmaz anlar yaşamaq imkanı əldə edəcəksiniz.",
+      "maxAge":"18+ / Türkçe"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-62-1.jpg", "Images/cart-41-2.png", "Images/cart-62x.jpg"],
+        "altText": "ALT_TEXT",
+        "eventDate": "08 dekabr 2025",
+        "eventLocation": "Heydər Əliyev Sarayı",
+        "price": "69",
+        "artistName": "ДиДюЛя",
+        "fullDateLocation": "08 dekabr 2025 • Heydər Əliyev Sarayı",
+        "description": "Rusiyanın məşhur musiqi qrupu ДиДюЛя, 8 dekabr tarixində Heydər Əliyev Sarayı'nda səhnəyə çıxacaq. Unikal musiqi üslubları və enerjili performansları ilə bu gecə, konsertlərdən daha çox bir təcrübəyə çevriləcək. Bu möhtəşəm şouya qatılın və unudulmaz anlar yaşayın!",
+      "maxAge":"6+ / Русский"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-63-1.jpg", "Images/cart-41-2.png", "Images/cart-63x.jpg"],
+        "altText": "ALT_TEXT",
+        "eventDate": "29 aprel 2025",
+        "eventLocation": "Azərbaycan Dövlət Akademik Filarmoniyası",
+        "price": "15",
+        "artistName": "Fidan Hacıyevanın 2 Beynəlxalq opera festivalı",
+        "fullDateLocation": "29 aprel 2025 • Azərbaycan Dövlət Akademik Filarmoniyası",
+        "description": "Fidan Hacıyeva-nın 2-ci Beynəlxalq Opera Festivalı, Azərbaycanın ən prestijli mədəniyyət mərkəzlərindən biri olan Azərbaycan Dövlət Akademik Filarmoniyasının səhnəsində keçiriləcək. Opera həvəskarları üçün bu festival, yüksək keyfiyyətli performanslarla zəngin bir təcrübə təqdim edəcək.",
+      "maxAge":"6+ / Azərbaycanca"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-64-1.jpg", "Images/cart-41-2.png", "Images/cart-64x.jpg"],
+        "eventDate": "06 mart 2025",
+        "eventLocation": "Azərbaycan Dövlət Akademik Filarmoniyası",
+        "price": "4",
+        "artistName": "Azərbaycan Dövlət Xalq Çalğı Alətləri Orkestrinin Konserti",
+        "fullDateLocation": "06 mart 2025 • Azərbaycan Dövlət Akademik Filarmoniyası",
+        "description": "Azərbaycan Dövlət Xalq Çalğı Alətləri Orkestrinin konserti 6 martda Azərbaycan Dövlət Akademik Filarmoniyasının səhnəsində olacaq. Bu konsertdə Azərbaycan xalq musiqisinin incilərini dinləyərək, mədəniyyətimizin zənginliyini kəşf edə bilərsiniz.",
+      "maxAge":"2+ / Azərbaycanca"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-65-1.jpg", "Images/cart-41-2.png", "Images/cart-65x.jpg"],
+        "eventDate": "04 mart 2025",
+        "eventLocation": "Azərbaycan Dövlət Akademik Filarmoniyası",
+        "price": "4",
+        "artistName": "Göygöl Dövlət Mahnı və Rəqs Ansamblının Konserti",
+        "fullDateLocation": "06 mart 2025 • Azərbaycan Dövlət Akademik Filarmoniyası",
+        "description": "Göygöl Dövlət Mahnı və Rəqs Ansamblı, 4 mart tarixində Azərbaycan Dövlət Akademik Filarmoniyasında öz gözəl və rəngarəng təqdimatını nümayiş etdirəcək. Azərbaycan folklorunun təntənəsini yaşamaq və xalq mahnılarının ritmləri ilə rəqs etmək üçün bu konserti qaçırmayın.",
+      "maxAge":"6+"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-66-1.jpg", "Images/cart-41-2.png", "Images/cart-66x.jpg"],
+        "eventDate": "10 may 2025",
+        "eventLocation": "Heydər Əliyev Sarayı",
+        "price": "20",
+        "artistName": "Bu Şəhərdə - \"Saz\"",
+        "fullDateLocation": "10 may 2025 • Heydər Əliyev Sarayı",
+        "description": "Əgər siz türk musiqisinin sehrinə qapılmaq istəyirsinizsə, Heydər Əliyev Sarayı'nda 'Bu Şəhərdə - \"Saz\"' adlı konsert sizi gözləyir. Bu gecə, sazın və digər ənənəvi musiqi alətlərinin melodiyaları ilə ruhunuzu dincəldəcək və sizi özünə çəkəcək.",
+      "maxAge":"6+ / Azərbaycanca"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-67-1.jpg", "Images/cart-41-2.png", "Images/cart-67x.jpg"],
+        "eventDate": "17 aprel 2025",
+        "eventLocation": "Azərbaycan Dövlət Akademik Filarmoniyası",
+        "price": "4",
+        "artistName": "Nadir Rəqslər",
+        "fullDateLocation": "17 aprel 2025 • Azərbaycan Dövlət Akademik Filarmoniyası",
+        "description": "Azərbaycanın ənənəvi və müasir rəqslərinin birləşdiyi 'Nadir Rəqslər' konserti 17 aprel tarixində Azərbaycan Dövlət Akademik Filarmoniyasında olacaq. Gözəl rəqslərin möhtəşəm bir şousu ilə şənlənməyə hazırsınız?",
+          "maxAge":"6+ / Azərbaycanca"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-68-1.jpg", "Images/cart-41-2.png", "Images/cart-68x.jpg"],
+        "eventDate": "26 aprel 2025",
+        "eventLocation": "Azərbaycan Dövlət Akademik Filarmoniyası",
+        "price": "4",
+        "artistName": "Etiraf - Qəlbin Susmayan Melodiyası",
+        "fullDateLocation": "26 aprel 2025 • Azərbaycan Dövlət Akademik Filarmoniyası",
+        "description": "'Etiraf - Qəlbin Susmayan Melodiyası' adlı unikal musiqi və rəqs performansı, 26 aprel tarixində Azərbaycan Dövlət Akademik Filarmoniyasının səhnəsində təqdim ediləcək. Hər bir notu ilə sizi duygusal bir səyahətə çıxaracaq bu gecəni qaçırmayın.",
+          "maxAge":"3+ / Azərbaycanca"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-69-1.jpg", "Images/cart-41-2.png", "Images/cart-69x.jpg"],
+        "eventDate": "26 mart 2025",
+        "eventLocation": "Qəbələ rayon Mədəniyyət Mərkəzi",
+        "price": "10",
+        "artistName": "Три кота: День Варенья! - Qəbələ",
+        "fullDateLocation": "26 mart 2025 • Qəbələ rayon Mədəniyyət Mərkəzi",
+        "description": "Uşaqlar üçün maraqlı və əyləncəli bir təcrübə! 'Три кота: День Варенья!' adlı uşaq şousu, 26 martda Qəbələ rayon Mədəniyyət Mərkəzində təqdim olunacaq. Balacalar üçün xüsusi bir məqamda əyləncə dolu bir gün!",
+      "maxAge":"0+ / Русский/ Azərbaycanca"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-70-1.jpg", "Images/cart-70-2.png", "Images/cart-70x.jpg"],
+        "eventDate": "18 may 2025",
+        "eventLocation": "Heydər Əliyev Sarayı",
+        "price": "39",
+        "artistName": "Soner Sarıkabadayı",
+        "fullDateLocation": "18 may 2025 • Heydər Əliyev Sarayı",
+        "description": "Türk pop musiqisinin parlaq ulduzlarından biri olan Soner Sarıkabadayı, 18 may tarixində Heydər Əliyev Sarayı'nda möhtəşəm bir konsert verəcək. Hər yaşdan pərəstişkarları bu konsertdə musiqi ilə coşacaq.",
+      "maxAge":"12+ / Türkçe"
+      },
+
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-71-1.jpg", "Images/cart-41-2.png", "Images/cart-71x.jpg"],
+        "eventDate": "28 mart 2025",
+        "eventLocation": "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
+        "price": "20",
+        "artistName": "Cəngi - O olmasın, bu olsun",
+        "fullDateLocation": "28 mart 2025 • Rəşid Behbudov adına Dövlət Mahnı Teatrı",
+        "description": "Azərbaycanın sevilən musiqi qruplarından biri olan Cəngi, 28 mart 2025-ci ildə Bakı şəhərində yerləşən Rəşid Behbudov adına Dövlət Mahnı Teatrında öz unikal konsertini təqdim edəcək. Konsertin adı 'O olmasın, bu olsun' ilə, fərqli bir təcrübə və sənətə baxış bucağı təqdim edir. Cəngi qrupu, ənənəvi Azərbaycan musiqisinin ritmlərini müasir elementlərlə birləşdirərək dinləyicilərə zəngin bir musiqi dünyası təqdim edəcək. Bilet qiymətləri 20 başlayır və tədbir, iştirakçılara Azərbaycanın ən yaxşı musiqiçilərinin performansını təqdim etmək üçün əla bir fürsət yaradır. Bu gecə, Azərbaycanda musiqi həvəskarları üçün unudulmaz bir təcrübə olacaq.",
+      "maxAge":"6+ / Azərbaycanca"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-72-1.jpg", "Images/cart-72-2.png", "Images/cart-72x.jpg"],
+        "eventDate": "21 iyun 2025",
+        "eventLocation": "Bakı İdman Sarayı",
+        "price": "60",
+        "artistName": "Kenan Doğulu",
+        "fullDateLocation": "21 iyun 2025 • Bakı İdman Sarayı",
+        "description": "Türkiyənin ən məşhur müğənnilərindən biri olan Kenan Doğulu, 21 iyun 2025-ci ildə Bakı İdman Sarayında səhnəyə çıxacaq. Kenan Doğulu, türk pop musiqisinin öncüllərindən biri olaraq, çoxsaylı hitləri ilə milyonlarla pərəstişkar qazanmış bir sənətçidir. Onun konserti, əsl musiqi və şou dünyasının birləşdiyi bir gecə olacaq. Kenan Doğulunun sevilen mahnıları və dinamik performansı, tamaşaçılara unudulmaz bir təcrübə təqdim edəcək. 60 başlayan bilet qiymətləri ilə bu konsert, musiqi sevərlər üçün gözlənilən ən böyük hadisələrdən biri olacaq.",
+      "maxAge":"6+ / Multilingual"
+
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-73-1.jpg", "Images/cart-41-2.png", "Images/cart-73x.jpg"],
+        "eventDate": "14 may 2025",
+        "eventLocation": "Heydər Əliyev Sarayı",
+        "price": "20",
+        "artistName": "Kalben",
+        "fullDateLocation": "14 may 2025 • Heydər Əliyev Sarayı",
+        "description": "Türkiyənin tanınmış müğənnisi Kalben, 14 may 2025-ci ildə Heydər Əliyev Sarayında səhnəyə çıxacaq. Kalbenin musiqisi, melodik və emosional dərinlikləri ilə məşhurdur. Bu konsertdə sənətçi, pərəstişkarlarına həm özünün klassik hitlərini, həm də yeni mahnılarını təqdim edəcək. Kalbenin musiqisindəki dərin emosiyalar və şəxsiyyətindən gələn musiqi enerjisi tamaşaçıları çox təsir edəcək. Bilet qiymətləri 20 başlayır və bu konsert, musiqi dünyasında yeni bir səhifə açacaq.",
+      "maxAge":"6+ / Multilingual"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-74-1.jpg", "Images/cart-41-2.png", "Images/cart-74x.jpg"],
+        "eventDate": "07 iyun 2025",
+        "eventLocation": "Heydər Əliyev Sarayı",
+        "price": "20",
+        "artistName": "Rafet El",
+        "fullDateLocation": "07 iyun 2025 • Heydər Əliyev Sarayı",
+        "description": "Türkiyənin məşhur müğənnisi Rafet El, 7 iyun 2025-ci ildə Heydər Əliyev Sarayında bir möhtəşəm konsert verəcək. Rafet El, öz müasir pop musiqisi ilə milyonlarla insanı özünə heyran buraxmışdır. Onun musiqisi, həm ritmik, həm də emosional birləşmələri ilə dinləyiciləri coşdurur. Konsertin səhnə dizaynı, işıqlandırma və musiqi performansı, tamaşaçılara fərqli bir musiqi təcrübəsi təqdim edəcək. Bu gecə, unikal bir təcrübə və müasir pop musiqisinin zirvəsini yaşayacaqsınız. Bilet qiymətləri 20 başlayır.",
+      "maxAge":"12+ / Türkçe"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-75-1.jpg", "Images/cart-75-2.png", "Images/cart-75x.jpg"],
+        "eventDate": "20 aprel 2025",
+        "eventLocation": "STEREOHALL",
+        "price": "25",
+        "artistName": "MARDAN",
+        "fullDateLocation": "20 aprel 2025 • STEREOHALL",
+        "description": "Azərbaycanın ən enerjili musiqi qruplarından biri olan MARDAN, 20 aprel 2025-ci ildə STEREOHALL-da səhnəyə çıxacaq. Bu gecə, elektron musiqi və müxtəlif janrların harmoniya içində olduğu bir təcrübə təqdim ediləcək. MARDAN, müasir musiqinin ən gözəl nümunələrini pərəstişkarları ilə bölüşəcək. Rəqslə dolu ritmlər, dinamik performans və ən müasir musiqi texnologiyalarından istifadə ediləcək. 25 başlayan qiymətlərlə bilet əldə edə bilərsiniz və bu gecə, çox gözlənilən bir tədbir olacaq.",
+      "maxAge":"6+ / Azərbaycanca"
+      },
+      {
+        "category":"Yenilik",
+        "image": ["Images/cart-76-1.jpg", "Images/cart-41-2.png", "Images/cart-75x.jpg"],
+        "eventDate": "07 mart 2025",
+        "eventLocation": "Heydər Əliyev Sarayı",
+        "price": "15",
+        "artistName": "Min bir gecə",
+        "fullDateLocation": "07 mart 2025 • Heydər Əliyev Sarayı",
+        "description": "Azərbaycanın məşhur teatr truppalarından biri olan 'Min bir gecə', 7 mart 2025-ci ildə Heydər Əliyev Sarayında xüsusi bir performans nümayiş etdirəcək. Bu möhtəşəm gecə, cəsur və yaradıcı rəssamların və ifaçıların öz əsərləri ilə səhnəyə çıxacağı, Azərbaycan mədəniyyətinin ən gözəl tərəflərini əks etdirəcək. 'Min bir gecə' tamaşası, ənənəvi Azərbaycan ədəbiyyatını və rəngarəng musiqi alətlərinin sintezi ilə, tamaşaçılara fərqli və yeni bir dünya təqdim edəcək. Tamaşaçılar bu performansda, həm bədii, həm də mədəni olaraq dərin izlər buraxan bir təcrübə yaşayacaqlar.",
+                  "maxAge":"6+ / Azərbaycanca"
+      }
+  
+
+
+  ]
+}

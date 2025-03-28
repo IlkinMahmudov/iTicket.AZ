@@ -1,264 +1,103 @@
+const slidesContainer = document.querySelector(".slides-container");
+const btnLeft = document.getElementById("left");
+const btnRight = document.getElementById("right");
+
+let slideIndex = 0;
+let slides = [];  
+let slideInterval;
+
+function updateSlides() {
+  slidesContainer.style.transform = `translateX(-${slideIndex * 100}%)`;
+}
+
+function nextSlide() {
+  slideIndex = (slideIndex + 1) % slides.length;
+  updateSlides();
+}
+
+function startAutoSlide() {
+  clearInterval(slideInterval); 
+  slideInterval = setInterval(nextSlide, 3000);
+}
+
+btnLeft.addEventListener("click", () => {
+  slideIndex = (slideIndex - 1 + slides.length) % slides.length;
+  updateSlides();
+  startAutoSlide(); 
+});
+
+btnRight.addEventListener("click", () => {
+  nextSlide();
+  startAutoSlide();
+});
+
+fetch("Data/cartItem0.json")
+  .then(response => response.json())
+  .then(data => {
+
+
+    data.forEach((item, index) => {
+    
+      if (index < 4) {
+        const slide = document.createElement("div");
+        slide.classList.add("slide");
+
+
+        if (index === 0) {
+          slide.classList.add("active");
+        }
+
+        slide.innerHTML = `
+          <a href="#" class="slide-img">
+            <img src="${item.image[0]}" alt="${item.altText}" />
+          </a>
+        `;
+
+    
+        slidesContainer.appendChild(slide);
+        slides.push(slide); 
+        slide.addEventListener("click", () => {
+          localStorage.setItem("selectedCartItem", JSON.stringify(item));
+          window.location.href = "cart.html"; 
+        });
+      }
+      
+    });
+
+    startAutoSlide();
+    updateSlides(); 
+  });
+
+
+
 const drop_open = document.getElementById("drop-open");
 const drop_menu = document.getElementById("dropdown-menu");
 
 drop_open.addEventListener("click", () => {
-  drop_menu.classList.toggle("open");
+    drop_menu.classList.toggle("open");
 });
-const leftButton1 = document.getElementById("left");
-const rightButton1 = document.getElementById("right");
-const slides = document.querySelectorAll(".slide");
-const slidesContainer = document.querySelector(".slides-container");
-let slideIndex = 0;
+document.addEventListener("DOMContentLoaded", function () {
+  const formLogin2 = document.getElementById("form_login");
 
+  formLogin2.style.display = "none";
 
-function showSlide() {
-
-  slidesContainer.style.transform = `translateX(-${slideIndex * 100}%)`;
-}
-
-
-function nextSlide() {
-  slideIndex = (slideIndex + 1) % slides.length; 
-  showSlide();
-}
-
-
-function prevSlide() {
-  slideIndex = (slideIndex - 1 + slides.length) % slides.length; 
-  showSlide();
-}
-
-rightButton1.addEventListener("click", nextSlide);
-leftButton1.addEventListener("click", prevSlide);
-
-
-showSlide();
-
-
-setInterval(nextSlide, 3000);
-const cartContainer = document.getElementById("sec2-carts");
-
-fetch("Data/cartItem1.json")
-.then(response =>{
-  return response.json()
-})
-.then(card1 =>{
-   card1.cartItems.forEach((item) => {
-      const cartDiv = document.createElement("div");
-      cartDiv.classList.add("image-wrapper");
-
-      cartDiv.innerHTML = `
-        <div class="cart1-img">
-            <a href="#" class="cart-link"><img src="${item.image[0]}" alt="${item.altText}" class="festival-image"></a>
-        </div>
-        <div class="cart1-p">
-            <p class="p-1">${item.eventDate}</p>
-            <p class="p-2">${item.eventLocation}</p>
-        </div>
-        <div class="cart1-a">
-            <a href="cart.html" class="cta-button">${item.price}</a>
-        </div>
-        <div class="info">
-            <h3 style="margin-left: 20px;">${item.artistName}</h3>
-            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">${item.fullDateLocation}</p>
-        </div>
-      `;
-
-      const cartLink = cartDiv.querySelector(".cart-link");
-      cartLink.addEventListener("click", () => {
-        localStorage.setItem("selectedCartItem", JSON.stringify(item));
-        window.location.href = "cart.html";
-      });
-
-      cartContainer.appendChild(cartDiv);
+  const open_form2 = document.getElementById("open_form2");
+  if (open_form2) {
+    open_form2.addEventListener("click", () => {
+      formLogin2.style.display = "block";
     });
-  
-})
-   
+  } else {
+    console.error("open_form button not found");
+  }
 
-const cartContainer2 = document.getElementById("sec2-carts2");
-
-const cartItems2 = [
-  {
-    image: ["Images/cart-12.jpg", "Images/cart-12x.jpg"],
-    altText: "Dream Fest Poster",
-    eventDate: "08 fevral 2025",
-    eventLocation: "Lahıc Tarix - Diyarşünaslıq",
-    price: "2 ₼-dan",
-    artistName: "Lahıc Tarix - Diyarşünaslıq",
-    fullDateLocation: "08 fevral 2025 • Lahıc Tarix - Diyarşünaslıq",
-  },
-  {
-    image: ["Images/cart-13.jpg", "Images/cart-13x.jpg"],
-    altText: "Dream Fest Poster",
-    eventDate: "08 fevral 2025",
-    eventLocation: "Diri Baba türbəsi",
-    price: "3 ₼-dan",
-    artistName:
-      '“Basqal” Dövlət Tarix-Mədəniyyət Qoruğunun balansında olan "Diri Baba türbəsi"',
-    fullDateLocation: '08 fevral 2025 • "Diri Baba türbəsi"',
-  },
-
-  {
-    image: ["Images/cart-15.jpg", "Images/cart-14x.jpg"],
-    altText: "Dream Fest Poster",
-    eventDate: "08 fevral 2025",
-    eventLocation: "Şuşa Şəhəri",
-    price: "20 ₼-dan",
-    artistName: "Şuşa şəhəri üzrə bələdçi xidməti",
-    fullDateLocation: "08 fevral 2025 • Şuşa Şəhəri",
-  },
-  {
-    image: ["Images/cart-16.jpg", "Images/cart-15x.jpg"],
-    altText: "Dream Fest Poster",
-    eventDate: "08 fevral 2025",
-    eventLocation: "Qobustan Palçıq ",
-    price: "3 ₼-dan",
-    artistName: "«Palçıq Vulkanları» Turizm Kompleksi",
-    fullDateLocation:
-      "08 fevral 2025 • Qobustan Palçıq Vulkanları Turizm Kompleksi",
-  },
-  {
-    image: ["Images/cart-17.jpg", "Images/cart-16x.jpg"],
-    altText: "Dream Fest Poster",
-    eventDate: "08 fevral 2025",
-    eventLocation: "Atəşgah məbədi",
-    price: "1 ₼-dan",
-    artistName: "“Atəşgah məbədi” Dövlət Tarix-Memarlıq Qoruğu",
-    fullDateLocation: "08 fevral 2025 • “Atəşgah məbədi”",
-  },
-  {
-    image: ["Images/cart-18.jpg", "Images/cart-18x.jpg"],
-    altText: "Dream Fest Poster",
-    eventDate: "08 fevral 2025",
-    eventLocation: "Yanar dağ",
-    price: "1 ₼-dan",
-    artistName: "“Yanar dağ” Dövlət Tarix-Mədəniyyət və Təbiət Qoruğu",
-    fullDateLocation:
-      "08 fevral 2025 • “Yanar dağ” Dövlət Tarix-Mədəniyyət və Təbiət Qoruğu",
-  },
-  {
-    image: ["Images/carrt-19.jpg", "Images/cart-19x.jpg"],
-    altText: "Dream Fest Poster",
-    eventDate: "08 fevral 2025",
-    eventLocation: "Yanardağ & Atəşgah",
-    price: "15 ₼-dan",
-    artistName: "Yanardağ & Atəşgah kombinə olunmuş bilet",
-    fullDateLocation: "08 fevral 2025 • Yanardağ & Atəşgah",
-  },
-  {
-    image: ["Images/cart-20.jpg", "Images/cart-20x.jpg"],
-    altText: "Dream Fest Poster",
-    eventDate: "08 fevral 2025",
-    eventLocation: "Şəkixanovlar evi",
-    price: "1 ₼-dan",
-    artistName: "Şəkixanovlar evi",
-    fullDateLocation: "08 fevral 2025 • Şəkixanovlar evi",
-  },
-  {
-    image: ["Images/cart-21.jpg", "Images/cart-21x.jpg"],
-    altText: "Dream Fest Poster",
-    eventDate: "08 fevral 2025",
-    eventLocation: "Kiş Alban Məbədi",
-    price: "1 ₼-dan",
-    artistName: "Kiş Alban Məbədi",
-    fullDateLocation: "08 fevral 2025 • Kiş Alban Məbədi",
-  },
-];
-
-cartItems2.forEach((item) => {
-  const cartDiv = document.createElement("div");
-  cartDiv.classList.add("image-wrapper");
-
-  cartDiv.addEventListener("click", () => {
-    localStorage.setItem("selectedCartItem", JSON.stringify(item));
-    window.location.href = "cart.html";
+  document.addEventListener("click", (event) => {
+    if (event.target && event.target.id === "close_btn") {
+      formLogin2.style.display = "none";
+    }
   });
-
-  cartDiv.innerHTML = `
-        <div class="cart1-img">
-            <img src="${item.image[0]}" alt="${item.altText}" class="festival-image">
-        </div>
-        <div class="cart1-p">
-            <p class="p-1">${item.eventDate}</p>
-
-        </div>
-        <div class="cart1-a">
-            <a href="cart.html" class="cta-button">${item.price}</a>
-        </div>
-        <div class="info">
-            <h3 style="margin-left: 20px;">${item.artistName}</h3>
-            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">${item.fullDateLocation}</p>
-        </div>
-    `;
-
-  cartContainer2.appendChild(cartDiv);
 });
 
-const leftButton = document.querySelector(".sec2-left");
-const rightButton = document.querySelector(".sec2-right");
 
-const cardWidth = document.querySelector(".image-wrapper").offsetWidth + 50;
-
-rightButton.addEventListener("click", () => {
-  if (
-    cartContainer.scrollLeft + cartContainer2.clientWidth >=
-    cartContainer.scrollWidth
-  ) {
-    cartContainer.scrollLeft = 0;
-  } else {
-    cartContainer.scrollLeft += cardWidth;
-  }
-});
-
-leftButton.addEventListener("click", () => {
-  if (cartContainer.scrollLeft === 0) {
-    cartContainer.scrollLeft =
-      cartContainer.scrollWidth - cartContainer.clientWidth;
-  } else {
-    cartContainer.scrollLeft -= cardWidth;
-  }
-});
-setInterval(() => {
-  if (cartContainer.scrollLeft + cartContainer.clientWidth >= cartContainer.scrollWidth) {
-    cartContainer.scrollLeft = 0;
-  } else {
-    cartContainer.scrollLeft += cardWidth;
-  }
-}, 2000);
-
-const leftButton2 = document.querySelector(".sec2-left2");
-const rightButton2 = document.querySelector(".sec2-right2");
-
-const cardWidth2 = document.querySelector(".image-wrapper").offsetWidth + 50;
-
-rightButton2.addEventListener("click", () => {
-  if (
-    cartContainer2.scrollLeft + cartContainer2.clientWidth >=
-    cartContainer2.scrollWidth
-  ) {
-    cartContainer2.scrollLeft = 0;
-  } else {
-    cartContainer2.scrollLeft += cardWidth2;
-  }
-});
-
-leftButton2.addEventListener("click", () => {
-  if (cartContainer2.scrollLeft === 0) {
-    cartContainer2.scrollLeft =
-      cartContainer2.scrollWidth - cartContainer2.clientWidth;
-  } else {
-    cartContainer2.scrollLeft -= cardWidth2;
-  }
-});
-
-setInterval(() => {
-  if (cartContainer2.scrollLeft + cartContainer2.clientWidth >= cartContainer2.scrollWidth) {
-    cartContainer2.scrollLeft = 0;
-  } else {
-    cartContainer2.scrollLeft += cardWidth2;
-  }
-}, 2000);
 
 document.addEventListener("DOMContentLoaded", function () {
   
@@ -291,6 +130,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+function openMenu() {
+  const menu = document.querySelector('.bars-open');
+  menu.classList.toggle('open');
+  
+  menu.classList.remove('close');
+}
+
+const close_bars = document.getElementById('bars-close');
+close_bars.addEventListener('click', () => {
+  const menu = document.querySelector('.bars-open');
+
+  menu.classList.toggle('close');
+
+  menu.classList.remove('open');
+});
+
+
+
+
+
 let form_x=document.getElementById('form_x')
 form_x.addEventListener('click', ()=>{
   const formLogin2 = document.getElementById("form_login").style.display='none' 
@@ -310,362 +169,461 @@ close_btn.addEventListener('click', ()=>{
 
 
 
-const cartItems3 = [
-  {
-    date: "17 oktyabr 2025",
-    price: "35 ₼-dan",
-    title: 'Sergey Bezrukov -"Хулиган. Исповедь"',
-    location: "Heydər Əliyev Sarayı",
-    image: ["Images/cart-23.jpg","Images/cart-23x.jpg"]
-  },
-  {
-    date: "25 fevral 2025",
-    price: "10 ₼-dan",
-    title: "Hamlet – ƏSA Teatrı",
-    location: "Akademik Milli Dram Teatrı",
-    image: ["Images/cart-24-1.jpg", "Images/cart-24-2.png", "Images/cart-24x.jpg"]
-  },
-  {
-    date: "27 fevral 2025",
-    price: "30 ₼-dan",
-    title: "Love is...",
-    location: "Teatr O2",
-    image: ["Images/cart-25.jpg", "Images/cart-25x.jpg"]
-  },
-  {
-    date: "02 mart 2025",
-    price: "8 ₼-dan",
-    title: "Rapunzel - uşaqlar üçün musiqili tamaşa",
-    location: "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
-    image: ["Images/cart-26-1.jpg", "Images/cart-26-2.png", "Images/cart-26x.jpg"]
-  },
-  {
-    date: "07 mart 2025",
-    price: "25 ₼-dan",
-    title: "Гамлет",
-    location: "Akademik Rus Dram Teatrı",
-    image: ["Images/cart-27.jpg"]
-},
-{
-  date: "09 mart 2025",
-  price: "8 ₼-dan",
-  title: "Sindirella - musiqili tamaşa",
-  location: "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
-  image: ["Images/cart-28-1.jpg", "Images/cart-28-2.png"]
-},
-{  date: "06 aprel 2025",
-  price: "8 ₼-dan",
-  title: "Alisa Möcüzələr Diyarında",
-  location: "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
-  image: ["Images/cart-29-1.jpg", "Images/cart-29-1.png", "Images/cart-29x.jpg"]
-},
-{  date: "13 aprel 2025",
-  price: "8 ₼-dan",
-  title: "Kung-Fu Panda - uşaqlar üçün musiqili tamaşa",
-  location: "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
-  image: ["Images/cart-30-1.jpg", "Images/cart-30-2.png","Images/cart-30x.jpg"]
-},
-{  date: "20 aprel 2025",
-  price: "8 ₼-dan",
-  title: "Mulan - Uşaqlar üçün interaktiv musiqili tamaşa",
-  location: "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
-  image: ["Images/cart-31-1.jpg", "Images/cart-31-2.png", "Images/cart-31x.jpg"]
-},
-{  date: "11 may 2025",
-  price: "10 ₼-dan",
-  title: "«Böyük Şoumen» Azərbaycanda",
-  location: "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
-  image: ["Images/cart-32-1.jpg", "Images/cart-32-2.png", "Images/cart-32x.jpg"]
-},
-{  date: "17 may 2025",
-  price: "10 ₼-dan",
-  title: "\"Donnanın Hekayəsi – Mamma Mia əsasında\"",
-  location: "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
-  image: ["Images/cart-33-1.jpg", "Images/cart-33-2.png", "Images/cart-33x.jpg"]
-},
-{  date: "08 iyun 2025",
-  price: "8 ₼-dan",
-  title: "Buratino və Pinokkio Karabas Barabasa qarşı - musiqili tamaşa",
-  location: "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
-  image: [
-    "Images/cart-34-1.jpg", "Images/cart-34-2.png", "Images/cart-34x.jpg"]
+function createAutoSlider(cartContainer, leftButton, rightButton) {
+  const scrollAmount = 320;
+  let slideInterval;
+
+  function scrollLeftSmoothly() {
+    cartContainer.scrollLeft -= scrollAmount;
+
+    if (cartContainer.scrollLeft <= 0) {
+      cartContainer.scrollLeft += cartContainer.scrollWidth / 2;
+    }
+  }
+
+  function scrollRightSmoothly() {
+    cartContainer.scrollLeft += scrollAmount;
+
+    if (cartContainer.scrollLeft >= cartContainer.scrollWidth / 2) {
+      cartContainer.scrollLeft -= cartContainer.scrollWidth / 2;
+    }
+  }
+
+
+  function startAutoSlideshow() {
+    slideInterval = setInterval(() => {
+      cartContainer.scrollLeft += scrollAmount;
+
+      if (cartContainer.scrollLeft >= cartContainer.scrollWidth / 2) {
+        cartContainer.scrollLeft -= cartContainer.scrollWidth / 2;
+      }
+    }, 2000); 
+  }
+
+
+  startAutoSlideshow();
+
+
+  leftButton.addEventListener("click", () => {
+    clearInterval(slideInterval);
+    scrollLeftSmoothly();
+    startAutoSlideshow(); 
+  });
+
+  rightButton.addEventListener("click", () => {
+    clearInterval(slideInterval); 
+    scrollRightSmoothly();
+    startAutoSlideshow();
+  });
 }
-];
+fetch("Data/cartItem0.json")
+  .then(response => response.json())
+  .then(data => {
+    data.forEach((item, index) => {
+      const slide = document.createElement("div");
+      slide.classList.add("slide");
+      if (index === 0) {
+        slide.classList.add("active");
+      }
+
+      const img = document.createElement("img");
+      img.src = item.image;
+      img.alt = item.alt;
+
+      slide.appendChild(img);
+      slidesContainer.appendChild(slide);
+
+
+      slide.addEventListener("click", () => {
+        localStorage.setItem("selectedCartItem", JSON.stringify(item));
+        window.location.href = "cart.html";
+      });
+
+    });
+  })
+
+
+
+const cartContainer = document.getElementById("sec2-carts");
+const leftButton = document.querySelector(".sec2-left");
+const rightButton = document.querySelector(".sec2-right");
+
+fetch("Data/cartItem1.json")
+  .then(response => response.json())
+  .then(card1 => {
+
+    card1.cartItems.forEach((item) => {
+      const cartDiv = document.createElement("div");
+      cartDiv.classList.add("image-wrapper");
+
+      cartDiv.innerHTML = `
+        <div class="cart1-img">
+            <a href="#" class="cart-link"><img src="${item.image[0]}" alt="${item.altText}" class="festival-image"></a>
+        
+            </div>
+        <div class="cart1-p">
+            <p class="p-1">${item.eventDate}</p>
+            <p class="p-2">${item.eventLocation}</p>
+        </div>
+        <div class="cart1-a">
+            <a href="cart.html" class="cta-button">${item.price}  ₼-dan</a>
+        </div>
+        <div class="info">
+            <h3 style="margin-left: 20px;">${item.artistName}</h3>
+            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">${item.fullDateLocation}</p>
+        </div>
+      `;
+ const cartLink = cartDiv.querySelector(".cart-link");
+      cartLink.addEventListener("click", () => {
+        localStorage.setItem("selectedCartItem", JSON.stringify(item));
+        window.location.href = "cart.html";
+      });
+      
+      
+     
+      createAutoSlider(cartContainer, leftButton, rightButton);
+      cartContainer.appendChild(cartDiv);
+    });
+
+    const scrollAmount = 320;
+
+    function scrollLeftSmoothly() {
+      cartContainer.scrollLeft -= scrollAmount;
+
+
+      if (cartContainer.scrollLeft <= 0) {
+        cartContainer.scrollLeft += cartContainer.scrollWidth / 2;
+      }
+    }
+
+    function scrollRightSmoothly() {
+      cartContainer.scrollLeft += scrollAmount;
+
+     
+      if (cartContainer.scrollLeft >= cartContainer.scrollWidth / 2) {
+        cartContainer.scrollLeft -= cartContainer.scrollWidth / 2;
+      }
+    }
+
+    leftButton.addEventListener("click", scrollLeftSmoothly);
+    rightButton.addEventListener("click", scrollRightSmoothly);
+  });
+
+const cartContainer2 = document.getElementById("sec2-carts2");
+const leftButton2 = document.querySelector(".sec2-left2");
+const rightButton2 = document.querySelector(".sec2-right2");
+fetch("Data/cartItem2.json")
+  .then((response) => {
+    return response.json();
+  })
+  .then((card2) => {
+    card2.cartItems.forEach((item) => {
+      const cartDiv = document.createElement("div");
+      cartDiv.classList.add("image-wrapper");
+      cartDiv.innerHTML = `
+      <div class="cart1-img">
+          <img src="${item.image[0]}" alt="${item.altText}" class="festival-image">
+            <img src="${item.image[1]}" alt=${item.altText}" class="cart-link2">
+      
+      </div>
+      <div class="cart1-p">
+          <p class="p-1">${item.eventDate}</p>
+      </div>
+      <div class="cart1-a">
+          <a href="cart.html" class="cta-button">${item.price}  ₼-dan</a>
+      </div>
+      <div class="info">
+          <h3 style="margin-left: 20px;">${item.artistName}</h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">${item.fullDateLocation}</p>
+      </div>
+      `;
+
+
+      cartDiv.addEventListener("click", () => {
+        localStorage.setItem("selectedCartItem", JSON.stringify(item));
+        window.location.href = "cart.html";
+      });
+      createAutoSlider(cartContainer2, leftButton2, rightButton2);
+      const scrollAmount = 320; 
+
+      function scrollLeftSmoothly() {
+        cartContainer2.scrollLeft -= scrollAmount;
+
+        if (cartContainer2.scrollLeft <= 0) {
+          cartContainer2.scrollLeft += cartContainer2.scrollWidth / 2;
+        }
+      }
+  
+      function scrollRightSmoothly() {
+        cartContainer2.scrollLeft += scrollAmount;
+
+        if (cartContainer2.scrollLeft >= cartContainer2.scrollWidth / 2) {
+          cartContainer2.scrollLeft -= cartContainer2.scrollWidth / 2;
+        }
+      }
+  
+      leftButton2.addEventListener("click", scrollLeftSmoothly);
+      rightButton2.addEventListener("click", scrollRightSmoothly);
+      cartContainer2.appendChild(cartDiv);
+    });
+  })
+
+
+
+
+
 
 const cartContainer3 = document.getElementById("sec3-carts3");
 
-cartItems3.forEach((item) => {
-  const cartDiv3 = document.createElement("div");
-  cartDiv3.classList.add("image-wrapper");
+const leftButton3 = document.querySelector(".sec3-left3");
+const rightButton3 = document.querySelector(".sec3-right3");
+fetch("Data/cartItem3.json")
+  .then((response) => {
+    return response.json();
+  })
+  .then((card3) => {
+    card3.cartItems.forEach((item) => {
+      const cartDiv = document.createElement("div");
 
-  cartDiv3.addEventListener("click", () => {
-    localStorage.setItem("selectedCartItem", JSON.stringify(item));
-    window.location.href = "cart.html";
-  });
-
-
-  const secondImage = item.image.find(img => img.endsWith(".png"));
-
-  cartDiv3.innerHTML = `
-        <div class="cart1-img">
-            <img src="${item.image[0]}" alt="${item.title}" class="festival-image">
-            ${secondImage ? `<a href="#" class="cart-link2"><img src="${secondImage}" alt="${item.title}"></a>` : ""}
-        </div>
-        <div class="cart1-p">
-            <p class="p-1">${item.date}</p>
-        </div>
-        <div class="cart1-a">
-            <a href="cart.html" class="cta-button" onclick="event.stopPropagation(); localStorage.setItem('selectedCartItem', JSON.stringify(${JSON.stringify(item)}));">${item.price}z</a>
-        </div>
-        <div class="info">
-            <h3 style="margin-left: 20px;">${item.title}</h3>
-            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">${item.date} • ${item.location}</p>
-        </div>
-    `;
-
-  cartContainer3.appendChild(cartDiv3);
-});
+      cartDiv.classList.add("image-wrapper");
+      cartDiv.innerHTML = `
+      <div class="cart1-img">
+          <img src="${item.image[0]}" alt="${item.altText}" class="festival-image">
+              <img src="${item.image[1]}" alt=${item.altText}" class="cart-link2">
+      </div>
+      <div class="cart1-p">
+          <p class="p-1">${item.eventDate}</p>
+      </div>
+      <div class="cart1-a">
+          <a href="cart.html" class="cta-button">${item.price}  ₼-dan</a>
+      </div>
+      <div class="info">
+          <h3 style="margin-left: 20px;">${item.artistName}</h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">${item.fullDateLocation}</p>
+      </div>
+      `;
 
 
-const leftButton3 = document.querySelector(".sec3-left");
-const rightButton3 = document.querySelector(".sec3-right");
+      const scrollAmount = 320; 
 
-const cardWidth3 = document.querySelector(".image-wrapper").offsetWidth + 50;
+      function scrollLeftSmoothly() {
+        cartContainer3.scrollLeft -= scrollAmount;
 
-rightButton3.addEventListener("click", () => {
-  if (cartContainer3.scrollLeft + cartContainer3.clientWidth >= cartContainer3.scrollWidth) {
-    cartContainer3.scrollLeft = 0;
-  } else {
-    cartContainer3.scrollLeft += cardWidth3;
-  }
-});
+        if (cartContainer3.scrollLeft <= 0) {
+          cartContainer3.scrollLeft += cartContainer3.scrollWidth / 2;
+        }
+      }
+  
+      function scrollRightSmoothly() {
+        cartContainer3.scrollLeft += scrollAmount;
 
-leftButton3.addEventListener("click", () => {
-  if (cartContainer3.scrollLeft === 0) {
-    cartContainer3.scrollLeft = cartContainer3.scrollWidth - cartContainer3.clientWidth;
-  } else {
-    cartContainer3.scrollLeft -= cardWidth3;
-  }
-});
+        if (cartContainer3.scrollLeft >= cartContainer3.scrollWidth / 2) {
+          cartContainer3.scrollLeft -= cartContainer3.scrollWidth / 2;
+        }
+      }
+  
+      leftButton3.addEventListener("click", scrollLeftSmoothly);
+      rightButton3.addEventListener("click", scrollRightSmoothly);
+      cartDiv.addEventListener("click", () => {
+        localStorage.setItem("selectedCartItem", JSON.stringify(item));
+        window.location.href = "cart.html";
+      });
+      createAutoSlider(cartContainer3, leftButton3, rightButton3);
 
-setInterval(() => {
-  if (cartContainer3.scrollLeft + cartContainer3.clientWidth >= cartContainer3.scrollWidth) {
-    cartContainer3.scrollLeft = 0;
-  } else {
-    cartContainer3.scrollLeft += cardWidth3;
-  }
-}, 2000);
+      cartContainer3.appendChild(cartDiv);
+    });
+  })
 
 
 const cartContainer4 = document.getElementById("sec4-carts4");
+const leftButton4 = document.querySelector(".sec4-left4");
+const rightButton4 = document.querySelector(".sec4-right4");
+fetch("Data/cartItem4.json")
+  .then((response) => {
+    return response.json();
+  })
+  .then((card4) => {
+    card4.cartItems.forEach((item) => {
+      const cartDiv = document.createElement("div");
 
-const cartItems4 = [
-  {
-    date: "27 aprel 2025",
-    price: "10 ₼-dan",
-    title: "Kukutiki",
-    location: "Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
-    images: [
-      "Images/cart-35-1.jpg", 
-      "Images/cart-35-2.png",
-      "Images/cart-35x.jpg", 
-    ]
-  },
-  {
-    date: "01 mart 2025",
-    price: "15 ₼-dan",
-    title: "Pizza Hut'dan uşaqlar üçün 'Pizza' master-klassı",
-    location: "Pizza Hut",
-    images: [
-      "Images/cart-36-1.jpg", 
-      "Images/cart-36-2.png",
-      "Images/cart-36x.jpg", 
-    ]
-  },
-  {
-    date: "25 fevral 2025",
-    price: "10 ₼-dan",
-    title: "Elçin Abbasovun İnteraktiv Elm Muzeyi",
-    location: "Hədəf Liseyi",
-    images: [
-      "Images/cart-37-1.jpg", 
-      "Images/cart-37-2.png"
-    ]
-  },
-  {
-    date: "28 fevral 2025",
-    price: "5 ₼-dan",
-    title: "\"Durna balığı\"",
-    location: "Azərbaycan Dövlət Kukla Teatrı",
-    images: [
-      "Images/cart-38-1.jpg", 
-      "Images/cart-38-2.png"
-    ]
-  },
-  {
-    date: "05 mart 2025",
-    price: "15 ₼-dan",
-    title: "İtalyan Sirki – Flavio və Daniele Togni",
-    location: "Circus Sea Breeze",
-    images: [
-      "Images/cart-39-1.jpg", 
-      "Images/cart-39-2.png"
-    ]
-  },
-  {
-    date: "08 mart 2025",
-    price: "8 ₼-dan",
-    title: "Meri Poppins - Sehrli macəralar",
-    location: "Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
-    images: [
-      "Images/cart-40-1.jpg", 
-      "Images/cart-40-2.png"
-    ]
-  },
-  {
-    date: "15 mart 2025",
-    price: "10 ₼-dan",
-    title: "Три кота: День Варенья! - Lənkəran",
-    location: "Lənkəran Dövlət Dram Teatrı",
-    images: [
-      "Images/cart-41-1.jpg", 
-      "Images/cart-41-2.png"
-    ]
-  },
-  {
-    date: "15 mart 2025",
-    price: "11 ₼-dan",
-    title: "Nikulin Sirki Bakıda",
-    location: "Bakı İdman Sarayı",
-    images: [
-      "Images/cart-42-2.jpg", 
-      "Images/cart-41-2.png"
-    ]
-  },
-  {
-    "date": "16 mart 2025",
-    "price": "9 ₼-dan",
-    "title": "Minecraft Şou",
-    "location": "Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
-    "images": [
-      "Images/cart-43-1.jpg",
-      "Images/cart-43-2.png"
-    ]
-  },
-  {
-    "date": "16 mart 2025",
-    "price": "10 ₼-dan",
-    "title": "Три кота: День Варенья! - Sumqayıt",
-    "location": "Sumqayıt Dövlət Dram Teatrı",
-    "images": [
-      "Images/cart-44-1.jpg",
-      "Images/cart-41-2.png"
-    ]
-  },
-  {
-    "date": "20 mart 2025",
-    "price": "5 ₼-dan",
-    "title": "Aladdin dostlarla Novruz şənliyində",
-    "location": "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
-    "images": [
-      "Images/cart-45-1.jpg",
-      "Images/cart-41-2.png"
-    ]
-  },
-  {
-    "date": "21 mart 2025",
-    "price": "8 ₼-dan",
-    "title": "Novruz macərası",
-    "location": "Heydər Əliyev Sarayı",
-    "images": [
-      "Images/cart-46-1.jpg",
-      "Images/cart-41-2.png"
-    ]
-  },
-  {
-    "date": "22 mart 2025",
-    "price": "10 ₼-dan",
-    "title": "Три кота: День Варенья! - Gəncə",
-    "location": "Gəncə Dövlət Milli Dram Teatrı",
-    "images": [
-      "Images/cart-47-1.jpg",
-      "Images/cart-41-2.png"
-    ]
-  },
-  {
-    "date": "23 mart 2025",
-    "price": "10 ₼-dan",
-    "title": "Три кота: День Варенья! - Mingəçevir",
-    "location": "Mingəçevir Dövlət Dram Teatrı",
-    "images": [
-      "Images/cart-48-1.jpg",
-      "Images/cart-41-2.png"
-    ]
-  }
+
+      cartDiv.classList.add("image-wrapper");
+      cartDiv.innerHTML = `
+      <div class="cart1-img">
+          <img src="${item.image[0]}" alt="${item.altText}" class="festival-image">
+              <img src="${item.image[1]}" alt=${item.altText}" class="cart-link2">
+      </div>
+      <div class="cart1-p">
+          <p class="p-1">${item.eventDate}</p>
+      </div>
+      <div class="cart1-a">
+          <a href="cart.html" class="cta-button">${item.price}  ₼-dan</a>
+      </div>
+      <div class="info">
+          <h3 style="margin-left: 20px;">${item.artistName}</h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">${item.fullDateLocation}</p>
+      </div>
+      `;
+
+      const scrollAmount = 320; 
+
+      function scrollLeftSmoothly() {
+        cartContainer4.scrollLeft -= scrollAmount;
+
+        if (cartContainer4.scrollLeft <= 0) {
+          cartContainer4.scrollLeft += cartContainer4.scrollWidth / 2;
+        }
+      }
   
+      function scrollRightSmoothly() {
+        cartContainer4.scrollLeft += scrollAmount;
+
+        if (cartContainer4.scrollLeft >= cartContainer4.scrollWidth / 2) {
+          cartContainer4.scrollLeft -= cartContainer4.scrollWidth / 2;
+        }
+      }
   
+      leftButton4.addEventListener("click", scrollLeftSmoothly);
+      rightButton4.addEventListener("click", scrollRightSmoothly);
+
+      cartDiv.addEventListener("click", () => {
+        localStorage.setItem("selectedCartItem", JSON.stringify(item));
+        window.location.href = "cart.html";
+      });
+      createAutoSlider(cartContainer4, leftButton4, rightButton4);
+
+      cartContainer4.appendChild(cartDiv);
+    });
+  })
+
+
+  const cartContainer5 = document.getElementById("sec5-carts5");
+  const leftButton5 = document.querySelector(".sec5-left5");
+  const rightButton5 = document.querySelector(".sec5-right5");
+fetch("Data/cartItem5.json")
+  .then((response) => {
+    return response.json();
+  })
+  .then((card5) => {
+    card5.cartItems.forEach((item) => {
+      const cartDiv = document.createElement("div");
+
+
+      cartDiv.classList.add("image-wrapper");
+      cartDiv.innerHTML = `
+      <div class="cart1-img">
+          <img src="${item.image[0]}" alt="${item.altText}" class="festival-image">
+              <img src="${item.image[1]}" alt=${item.altText}" class="cart-link2">
+      </div>
+      <div class="cart1-p">
+          <p class="p-1">${item.eventDate}</p>
+      </div>
+      <div class="cart1-a">
+          <a href="cart.html" class="cta-button">${item.price}  ₼-dan</a>
+      </div>
+      <div class="info">
+          <h3 style="margin-left: 20px;">${item.artistName}</h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">${item.fullDateLocation}</p>
+      </div>
+      `;
+      const scrollAmount = 320; 
+
+      function scrollLeftSmoothly() {
+        cartContainer5.scrollLeft -= scrollAmount;
+
+        if (cartContainer5.scrollLeft <= 0) {
+          cartContainer5.scrollLeft += cartContainer5.scrollWidth / 2;
+        }
+      }
   
+      function scrollRightSmoothly() {
+        cartContainer5.scrollLeft += scrollAmount;
+
+        if (cartContainer5.scrollLeft >= cartContainer5.scrollWidth / 2) {
+          cartContainer5.scrollLeft -= cartContainer5.scrollWidth / 2;
+        }
+      }
   
-];
+      leftButton5.addEventListener("click", scrollLeftSmoothly);
+      rightButton5.addEventListener("click", scrollRightSmoothly);
 
-cartItems4.forEach((item) => {
-  const cartDiv4 = document.createElement("div");
-  cartDiv4.classList.add("image-wrapper");
+      cartDiv.addEventListener("click", () => {
+        localStorage.setItem("selectedCartItem", JSON.stringify(item));
+        window.location.href = "cart.html";
+      });
+      createAutoSlider(cartContainer5, leftButton5, rightButton5);
 
-  cartDiv4.addEventListener("click", () => {
-    localStorage.setItem("selectedCartItem", JSON.stringify(item));
-    window.location.href = "cart.html";
-  });
-
-  const secondImage2 = item.images[1] ? `<a href="#" class="cart-link2"><img src="${item.images[1]}" alt="${item.title}"></a>` : "";
-
-  cartDiv4.innerHTML = `
-        <div class="cart1-img">
-            <img src="${item.images[0]}" alt="${item.title}" class="festival-image">
-            ${secondImage2}
-        </div>
-        <div class="cart1-p">
-            <p class="p-1">${item.date}</p>
-        </div>
-        <div class="cart1-a">
-            <a href="cart.html" class="cta-button" onclick="event.stopPropagation(); localStorage.setItem('selectedCartItem', JSON.stringify(${JSON.stringify(item)}));">${item.price}</a>
-        </div>
-        <div class="info">
-            <h3 style="margin-left: 20px;">${item.title}</h3>
-            <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">${item.date} • ${item.location}</p>
-        </div>
-    `;
-
-  cartContainer4.appendChild(cartDiv4);
-});
+      cartContainer5.appendChild(cartDiv);
+    });
+  })
 
 
 
-const leftButton4 = document.querySelector(".sec4-left");
-const rightButton4 = document.querySelector(".sec4-right");
 
-const cardWidth4 = document.querySelector(".image-wrapper").offsetWidth + 50;
 
-rightButton4.addEventListener("click", () => {
-  if (cartContainer4.scrollLeft + cartContainer4.clientWidth >= cartContainer4.scrollWidth) {
-    cartContainer4.scrollLeft = 0;
-  } else {
-    cartContainer4.scrollLeft += cardWidth4;
-  }
-});
 
-leftButton4.addEventListener("click", () => {
-  if (cartContainer4.scrollLeft === 0) {
-    cartContainer4.scrollLeft = cartContainer4.scrollWidth - cartContainer4.clientWidth;
-  } else {
-    cartContainer4.scrollLeft -= cardWidth4;
-  }
-});
+  const cartContainer6 = document.getElementById("sec6-carts6");
+  const leftButton6 = document.querySelector(".sec6-left6");
+  const rightButton6 = document.querySelector(".sec6-right6");
+fetch("Data/cartItem6.json")
+  .then((response) => {
+    return response.json();
+  })
+  .then((card6) => {
+    card6.cartItems.forEach((item) => {
+      const cartDiv = document.createElement("div");
 
-setInterval(() => {
-  if (cartContainer4.scrollLeft + cartContainer4.clientWidth >= cartContainer4.scrollWidth) {
-    cartContainer4.scrollLeft = 0;
-  } else {
-    cartContainer4.scrollLeft += cardWidth4;
-  }
-}, 2000);
+
+      cartDiv.classList.add("image-wrapper");
+      cartDiv.innerHTML = `
+      <div class="cart1-img">
+          <img src="${item.image[0]}" alt="${item.altText}" class="festival-image">
+              <img src="${item.image[1]}" alt=${item.altText}" class="cart-link2">
+      </div>
+      <div class="cart1-p">
+          <p class="p-1">${item.eventDate}</p>
+      </div>
+      <div class="cart1-a">
+          <a href="cart.html" class="cta-button">${item.price}  ₼-dan</a>
+      </div>
+      <div class="info">
+          <h3 style="margin-left: 20px;">${item.artistName}</h3>
+          <p style="font-size: 13px; margin-left: 20px; opacity: 0.7;">${item.fullDateLocation}</p>
+      </div>
+      `;
+      const scrollAmount = 320; 
+
+      function scrollLeftSmoothly() {
+        cartContainer6.scrollLeft -= scrollAmount;
+
+        if (cartContainer6.scrollLeft <= 0) {
+          cartContainer6.scrollLeft += cartContainer6.scrollWidth / 2;
+        }
+      }
+  
+      function scrollRightSmoothly() {
+        cartContainer6.scrollLeft += scrollAmount;
+
+        if (cartContainer6.scrollLeft >= cartContainer6.scrollWidth / 2) {
+          cartContainer6.scrollLeft -= cartContainer6.scrollWidth / 2;
+        }
+      }
+  
+      leftButton6.addEventListener("click", scrollLeftSmoothly);
+      rightButton6.addEventListener("click", scrollRightSmoothly);
+
+      cartDiv.addEventListener("click", () => {
+        localStorage.setItem("selectedCartItem", JSON.stringify(item));
+        window.location.href = "cart.html";
+      });
+
+      createAutoSlider(cartContainer6, leftButton6, rightButton6);
+      cartContainer6.appendChild(cartDiv);
+    });
+  })
+
+
+
+
+
+

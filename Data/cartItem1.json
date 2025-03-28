@@ -1,103 +1,140 @@
 {
     "cartItems": [
       {
-        "image": ["images/cart-1.jpg", "images/cart-1x.jpg"],
+       "category":"Populyar tədbirlər",
+        "image": ["images/cart-1.jpg", "Images/cart-41-2.png", "images/cart-1x.jpg", "Images/cart-1-3.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "24 iyul 2025",
         "eventLocation": "Sea Breeze",
-        "price": "30 ₼-dan",
+        "price": "30",
         "artistName": "DREAM FEST 2025",
-        "fullDateLocation": "24 iyul 2025 • Sea Breeze Resort"
+        "fullDateLocation": "24 iyul 2025 • Sea Breeze Resort",
+        "description": "2025-ci ilin yayının ən böyük və ən möhtəşəm musiqi tədbiri — DREAM FEST beynəlxalq musiqi festivalı, 24-27 iyul tarixlərində möhtəşəm Sea Breeze Resort kurort şəhərinin sahilində keçiriləcək. Bu unudulmaz dördgünlük festival, gözəl təbiət, musiqi və rəqs ilə zənginləşdirilmiş bir təcrübə təqdim edəcək. Sea Breeze Resort-un sahilində təşkil ediləcək bu festival, sənətsevərləri, musiqi həvəskarlarını və rəqs tutqunlarını bir araya gətirəcək. \n\nDREAM FEST, 100-dən çox yerli və beynəlxalq sənətçinin iştirakı ilə rəqs, musiqi və şou proqramları ilə zənginləşdiriləcək. Hər bir gecə müxtəlif janrlarda təqdim ediləcək unikal musiqi performansları ilə iştirakçılar yaddaqalan anlar yaşayacaqlar. Bu festival, həmçinin beynəlxalq səhnələrdən gələn tanınmış ifaçılar və DJ-lər ilə sahildəki musiqi atmosferini daha da canlandıracaq. \n\nXəzərin sahilindəki bu böyük musiqi bayramı, həm təbiət, həm də sənət dünyası ilə iç-içə olmaq istəyənlər üçün mükəmməl bir fürsət olacaq. Tədbir, açıq havada keçiriləcək və iştirakçılara gündüzdən gecəyə qədər musiqi ilə dolu unudulmaz anlar yaşadacaq. Rəqs, musiqi və əyləncə dolu bu dördgünlük festival, hər yaşdan olan izləyicilər üçün bir həyat təcrübəsi olacaq. \n\nƏlavə olaraq, bu tədbirə əldə edilən biletlər qaytarılmır və ya dəyişdirilmir, buna görə də iştirakçıların bilet alarkən bu şərtləri nəzərə almaları tövsiyə olunur. Gözəl hava şəraiti, təbii mənzərələr və qeyri-adi musiqi şouları ilə DREAM FEST, 2025-ci ilin yayını ən yadda qalan hadisələrindən birinə çevirəcək. Biletinizi bu fantastik festival üçün indidən əldə edin və unutulmaz bir təcrübəyə qatılın!",
+        "maxAge":"6+ / Multilingual"
       },
       {
-        "image": ["images/cart-2.jpg", "images/cart-2x.jpg"],
+        "category":"Populyar tədbirlər",
+        "image": ["images/cart-2.jpg", "Images/cart-41-2.png",  "images/cart-2x.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "14 fevral 2025",
         "eventLocation": "Baki Konqres",
-        "price": "30 ₼-dan",
+        "price": "30",
         "artistName": "Alsu",
-        "fullDateLocation": "14 fevral 2025 • Baku Konqres Merkezi"
+        "fullDateLocation": "14 fevral 2025 • Baku Konqres Merkezi",
+"description": "Möhtəşəm xəbər! Rusiyanın ən sevilən və istedadlı müğənnilərindən biri, Alsu, ilk dəfə Bakıda konsert verəcək! 14 fevral - Sevgililər Günü münasibətilə, Bakı Konqres Mərkəzində baş tutacaq bu xüsusi tədbir, onun musiqisinə aşiq olan hər kəs üçün unudulmaz bir gecəyə çevriləcək. Alsu, illərdir ki, dərin və duyğulu səsi ilə dinləyicilərinə xüsusi anlar yaşadır. Onun mahnıları, xüsusilə “Zimniy Son”, “Vesna”, “Razluka” və digər hitləri, Azərbaycan musiqi sevərləri tərəfindən də çox sevilir. \n\nAlsu, yalnız Rusiyanın deyil, eyni zamanda beynəlxalq səhnənin parlaq ulduzlarından biridir. Onun musiqi duyumu və səhnə performansı, hər çıxışı ilə dinləyicilərini dərindən təsirləndirir. Hər ifasında, sözlərdən daha çox duyğular və həyat hekayələri təqdim edir. Alsu'nun musiqisi, həmçinin onun özünün şəxsi təcrübələrindən ilham alır, bu da onun hər mahnısına xüsusi bir dərinlik və anlam qatır. \n\nBakı Konqres Mərkəzində keçiriləcək bu möhtəşəm konsert, Alsu'nun çox gözlənilən ifalarından biri olacaq. Sevgililər Günü kimi xüsusi bir gündə onun səhnə performansına şahid olmaq, romantik atmosferi yaşamaq, və sevgi dolu musiqilərlə sanki zamanın dayandığını hiss etmək hər musiqi həvəskarının arzusudur. \n\nAlsu'nun səhnə bacarıqları və xüsusi cazibəsi ilə bu gecə çoxdan gözlənilən bir tədbirə çevriləcək. Hər bir konserti özünəməxsus və unikal olan Alsu, səhnədəki cazibəsi ilə tamaşaçılara yalnız musiqi deyil, həm də xüsusi bir ruhsal təcrübə təqdim edəcək. Bu gecəni qaçırmamaq üçün biletinizi indidən əldə edin və bu unudulmaz anların bir hissəsi olun!", 
+"maxAge":"6+"
       },
       {
-        "image": ["images/cart-3.jpg", "images/cart-3x.jpg"],
+        "category":"Populyar tədbirlər",
+        "image": ["images/cart-3.jpg", "Images/cart-41-2.png", "images/cart-3x.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "08 fevral 2025",
         "eventLocation": "Best Place Baku",
-        "price": "8 ₼-dan",
+        "price": "8 ",
         "artistName": "Old City JAZZ nights",
-        "fullDateLocation": "08 fevral 2025 • Best Place Baku"
+        "fullDateLocation": "08 fevral 2025 • Best Place Baku",
+               "description": "Mart ayı Bakı caz səhnəsi üçün unudulmaz olacaq! Sizi möhtəşəm canlı musiqi təcrübəsinə dəvət edirik. Hər axşam müxtəlif caz üslublarını əhatə edən konsertlərdə peşəkar ifaçılar və sevilən musiqiçilər çıxış edəcək. Bu tədbirlər Azərbaycan caz ənənələrinin zəngin harmoniyasını müasir improvizasiyalarla birləşdirərək tamaşaçılara unikal və unudulmaz anlar bəxş edəcək. \n\nMusiqi həvəskarları üçün mart ayı boyunca instrumental caz, caz muğamı, etno caz, swing, blues, samba və bossa nova kimi müxtəlif janrlarda ifalar təqdim ediləcək. Seymur Əliyev Trio, Nicat Aslanov Quartet, Salman Qəmbərov və Səbinə Hacıyeva, Svetlana Maqərramova və digər məşhur caz musiqiçiləri öz istedadlarını nümayiş etdirəcəklər. \n\nBakı caz səhnəsindəki bu konsertlər təkcə musiqi deyil, həm də bir-birindən gözəl performanslar və tamaşaçılar üçün xüsusi hazırlanmış möhtəşəm atmosfer ilə yaddaqalan olacaq. Gecələr boyu klassik caz standartlarından tutmuş modern caz eksperimentlərinə qədər geniş repertuar səsləndiriləcək. \n\nKonsertlərdə çıxış edəcək musiqiçilər arasında ölkənin ən bacarıqlı instrumentalistləri və vokalistləri yer alır. Bu tədbirlərdə caz musiqisinin müxtəlif üslublarını özündə əks etdirən muğam və cazın sintezindən tutmuş, samba və blues kimi cazın universal janrlarına qədər fərqli musiqi dünyalarının şahidi olacaqsınız. \n\nƏgər siz də incə və duyğusal musiqinin sehrinə düşmək, möhtəşəm bir atmosferin içində olmaq və mart ayını ən gözəl melodiyalarla keçirmək istəyirsinizsə, bu konsertlər tam sizin üçündür! Gecənin sehri, işıqların altında ritmlə hərəkət edən notlar və musiqiçilərin ruhlandırıcı ifaları ilə unudulmaz bir təcrübəyə şahid olun. \n\nHər konsert fərqli proqramla təqdim ediləcək, qapılar saat 19:00-da açılır və konsertlər 20:15-dən 22:15-ə qədər davam edəcək. Minimal sifariş tələbi bir nəfər üçün 30 AZN təşkil edir, biletlərin qiymətləri isə 8 AZN-dən başlayır. Ən yüksək səviyyədə musiqi keyfiyyətini dinləmək və həqiqi caz atmosferini hiss etmək üçün biletlərinizi indidən əldə edin! \n\nSizinlə birlikdə bu sehrli musiqi gecələrini paylaşmaq üçün səbirsizliklə gözləyirik!",
+               "maxAge":"12+ / Multilingual"
       },
       {
-        "image": ["images/cart-4.jpg", "images/cart-4x.jpg"],
+        "category":"Populyar tədbirlər",
+        "image": ["images/cart-4.jpg", "Images/cart-41-2.png", "images/cart-4x.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "15 fevral 2025",
         "eventLocation": "Tufandag",
-        "price": "35 ₼-dan",
+        "price": "35 ",
         "artistName": "Sound Of Caucasus 2",
-        "fullDateLocation": "15 fevral 2025 • Tufandag Qış-Yay Mərkəzi"
-      },
+        "fullDateLocation": "15 fevral 2025 • Tufandag Qış-Yay Mərkəzi",
+   "description": "15 fevral 2025-ci ildə Tufandağ Qış-Yay Mərkəzində unudulmaz bir musiqi gecəsi baş tutacaq! Sound Of Caucasus 2 konserti, Qafqazın zəngin musiqi irsini və ən möhtəşəm melodiyalarını bir araya gətirərək tamaşaçılara unikal bir təcrübə vəd edir. Qarla örtülmüş dağ mənzərəsi fonunda baş tutacaq bu möhtəşəm tədbir, ənənəvi və müasir musiqi janrlarının harmoniyasını təqdim edəcək. \n\nKonsertdə Qafqazın məşhur ifaçıları və musiqi qrupları səhnəyə çıxacaq, tamaşaçılara enerjili və duyğusal ifalar bəxş edəcəklər. Tufandağın füsunkar təbiəti və atmosferi ilə vəhdət təşkil edən bu musiqi axşamı, hər bir qonağı sanki başqa bir dünyaya aparacaq. \n\nSound Of Caucasus 2 təkcə musiqi deyil, həm də mədəniyyətin, əyləncənin və dostluğun qovuşduğu bir tədbirdir. Burada iştirak edənlər, ənənəvi çalğı alətləri ilə səsləndirilən gözəl melodiyalardan tutmuş, müasir musiqi üslublarının dinamik ritmlərinə qədər geniş bir musiqi palitrasının şahidi olacaqlar. \n\nBu qışın ən unudulmaz konsertlərindən birinə qatılmaq və Qafqazın sehrli musiqisi ilə ruhunuzu isindirmək üçün biletlərinizi əldə etməyi unutmayın! 15 fevral 2025-ci ildə Tufandağda görüşək!",
+  "maxAge":"6+"
+  },
       {
-        "image": ["images/cart-5.jpg", "images/cart-5x.jpg"],
+        "category":"Populyar tədbirlər",
+        "image": ["images/cart-5.jpg", "Images/cart-41-2.png", "images/cart-5x.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "08 Mart 2025",
         "eventLocation": "Jolley Joker Baku",
-        "price": "60 ₼-dan",
+        "price": "60 ",
         "artistName": "PIZAA - Böyük Solo Konsert",
-        "fullDateLocation": "08 mart 2025 • Jolly Joker Baku"
+        "fullDateLocation": "08 mart 2025 • Jolly Joker Baku",
+        "description": "08 Mart 2025-ci ildə Jolly Joker Baku-da unudulmaz bir gecə yaşanacaq! Musiqi dünyasının parlayan ulduzu PIZAA, öz Böyük Solo Konserti ilə dinləyiciləri ecazkar bir musiqi səyahətinə aparacaq. Gözəl melodiyalar, güclü ritmlər və unikal səhnə performansı ilə dolu bu tədbir, musiqisevərlərin könlünü fəth edəcək. \n\nBu gecə yalnız musiqi ilə deyil, eyni zamanda əyləncə və pizzanın dadlı birləşməsi ilə də fərqlənəcək. Jolly Joker Baku-nun xüsusi atmosferi, səs və işıq effektləri, eləcə də möhtəşəm səhnə dekorasiyaları tədbirə əlavə bir rəng qatacaq. PIZAA-nın özünəməxsus səhnə enerjisi və tamaşaçı ilə qurduğu güclü əlaqə bu gecəni daha da unudulmaz edəcək. \n\nTədbir Sevgililər Günü həftəsinə təsadüf etdiyindən, sevgi və romantikanın musiqi ilə harmoniyası səhnədə hiss olunacaq. Tək gələnlər, dostları ilə əylənmək istəyənlər və ya öz sevgilisinə musiqi dolu unikal bir gecə hədiyyə etmək istəyənlər üçün mükəmməl bir fürsətdir. \n\nBiletlərinizi tezliklə əldə edin və 08 Mart 2025-ci ildə Jolly Joker Baku-da PIZAA-nın böyük solo konsertinin bir parçası olun!", 
+        "maxAge":"16+ / Русский"
       },
       {
-        "image": ["images/cart-6.jpg", "images/cart-6x.jpg"],
+        "category":"Populyar tədbirlər",
+        "image": ["images/cart-6.jpg", "Images/cart-41-2.png", "images/cart-6x.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "15 mart 2025",
         "eventLocation": "Baki Idman Sarayi",
-        "price": "11 ₼-dan",
+        "price": "11 ",
         "artistName": "Nikulin Sirki Bakıda",
-        "fullDateLocation": "15 mart 2025 • Bakı İdman Sarayı"
+        "fullDateLocation": "15 mart 2025 • Bakı İdman Sarayı",
+         "description": "Moskvanın məşhur Svetnoy Bulvarında yerləşən və dünyaca tanınan Yuri Nikulin Sirki, uzun illərdən sonra yenidən Bakıya qayıdır! Bakı Dövlət Sirkinin təşkilati dəstəyi ilə, 10 ildən sonra ilk dəfə 15 mart 2025-ci ildən etibarən sirkin möhtəşəm proqramı paytaxtımızda təqdim ediləcək. Bu, sirkin sehri ilə dolu unudulmaz bir axşam vəd edən, bütün ailənin birlikdə izləyə biləcəyi möhtəşəm bir tamaşa olacaq. \n\nYuri Nikulin Sirki təkcə Rusiyada deyil, beynəlxalq arenada da ən tanınmış sirk məktəblərindən biridir. Onun artistləri dünyanın müxtəlif ölkələrində keçirilən festivallarda çıxış edərək böyük mükafatlara layiq görülüblər. Sirk sənətinin ən yüksək səviyyədə nümayiş olunduğu bu şouda, peşəkar akrobatlar, cəsur gimnastlar və incə tarazlıq ustaları – ekvilibristlər öz bacarıqları ilə tamaşaçıları heyran edəcəklər. \n\nGülüş və sevinc dolu bir şou gözləyən tamaşaçılar, klounların şən və əyləncəli çıxışları ilə gülüş dolu anlar yaşayacaqlar. Möhtəşəm sirk proqramında yalnız insan artistlər deyil, eyni zamanda xüsusi hazırlanmış heyvan nömrələri də təqdim ediləcək. Sözəbaxan ayılar, sirk sənətinə öyrədilmiş itlər, məzəli meymunlar və su heyvanları, sahibkarlarının göstərişlərini mehribanlıqla yerinə yetirərək tamaşaçılara inanılmaz anlar bəxş edəcəklər. Bu şouda heyvanların və insanın bir-birinə olan mehribanlığı, sədaqəti və sirk sənətinin harmoniyası öz əksini tapacaq.\n\nSirkin xüsusi proqramı həm uşaqlar, həm də böyüklər üçün nəzərdə tutulub. Şounun əsas məqamlarından biri də rəqqasların hər yeni nömrədən əvvəl təqdim etdikləri unikal rəqslərdir. Rəngarəng və gözoxşayan səhnə dekorasiyaları, incə detallarla işlənmiş fərqli kostyumlar, müasir işıq effektləri və dinamik musiqi müşayiəti ilə tamaşaçılar unudulmaz bir vizual təcrübə yaşayacaqlar. \n\nBütün bu möhtəşəm proqram, Bakı İdman Sarayında (Əl Oyunları Sarayı) tamaşaçılara təqdim ediləcək. Şounun hər anı sirkin sehrini hiss etdirmək üçün xüsusi şəkildə hazırlanıb və tamaşaçılar, bu tədbirdə real həyatın qayğılarından uzaqlaşıb, sehrli bir dünyaya səyahət edəcəklər. \n\nBiletlərin qiymətləri 11 AZN-dən başlayaraq 40 AZN-ə qədər dəyişir. Bu, hər kəsin bu unikal sirk təcrübəsinə qatılmasına imkan yaradacaq. Əyləncə, gülüş, möhtəşəm bacarıqlar və sirkin sehri – bunların hamısı sizi Yuri Nikulin Sirkinin 10 ildən sonra Bakıya dönüşündə gözləyir! Biletlərinizi əldə etməyi unutmayın və sirkin sehrinə qapılmağa hazır olun!",
+         "maxAge":"3+ / Multilingual"
       },
       {
-        "image": ["images/cart-7.jpg", "images/cart-7x.jpg"],
+        "category":"Populyar tədbirlər",
+        "image": ["images/cart-7.jpg", "Images/cart-41-2.png", "images/cart-7x.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "02 mart 2025",
         "eventLocation": "Baki Musiqi",
-        "price": "15 ₼-dan",
+        "price": "15 ",
         "artistName": "Hanz Zimmar Kainati",
-        "fullDateLocation": "02 mart 2025 • Baki Musiqi Akademiyasi"
+        "fullDateLocation": "02 mart 2025 • Baki Musiqi Akademiyasi",
+       "description": "02 mart 2025-ci ildə Bakı Musiqi Akademiyasında baş tutacaq bu möhtəşəm konsert gecəsi, musiqi və sənət dünyasının incə harmoniyasını hiss etmək istəyən hər kəs üçün unudulmaz bir təcrübə vəd edir. Dünyaca məşhur və özünəməxsus üslubu ilə seçilən Hanz Zimmar Kainati, dinləyiciləri sehrli musiqi səyahətinə çıxaracaq. Müasir və klassik musiqinin unikal vəhdəti ilə zəngin olan bu konsert, hər bir notun ruhun dərinliklərinə işlədiyi bir axşam olacaq. \n\nBu xüsusi gecədə Hanz Zimmar Kainati öz musiqisi ilə tamaşaçıları fərqli duyğulara qərq edəcək. Tamaşaçılar, zərif pianino notlarından güclü orkestr ifalarına, ecazkar melodiya keçidlərindən təsirli ritmlərə qədər geniş musiqi spektrini canlı şəkildə hiss edəcəklər. Onun yaratdığı xüsusi atmosfer, müasir texnologiyalarla hazırlanmış vizual təqdimatlar və unikal səhnə dekorasiyaları ilə daha da güclənəcək. \n\nKonsert yalnız musiqi deyil, eyni zamanda incəsənət dünyasının müxtəlif elementlərini özündə birləşdirən bir tamaşa olacaq. Tamaşaçılar, xüsusi işıq effektləri, səs texnologiyaları və sənət əsərləri ilə zənginləşdirilmiş bu tədbirdə özlərini başqa bir dünyada hiss edəcəklər. Bakı Musiqi Akademiyasının prestijli səhnəsində keçiriləcək bu möhtəşəm gecə, hər kəsin yaddaşında silinməz iz buraxacaq. \n\nBiletlər 15  başlayır və bu, hər musiqisevərin yüksək səviyyəli bir şouya qatılmasına imkan yaradır. Sizi musiqinin sehri ilə dolu bir axşam gözləyir. Bu unikal konserti qaçırmayın və 02 mart 2025-ci ildə Bakı Musiqi Akademiyasında möhtəşəm bir gecənin bir parçası olun!",
+       "maxAge":"6+"
+
       },
       {
-        "image": ["images/cart-8.jpg", "images/cart-8x.jpg"],
+        "category":"Populyar tədbirlər",
+        "image": ["images/cart-8.jpg", "Images/cart-41-2.png", "images/cart-8x.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "05 mart 2025",
         "eventLocation": "Circuz Sea Breeze",
-        "price": "15 ₼-dan",
+        "price": "15 ",
         "artistName": "Italiyan Sirki - Flavio",
-        "fullDateLocation": "05 mart 2025 • Circuz Sea Breeze"
+        "fullDateLocation": "05 mart 2025 • Circuz Sea Breeze",
+        "description": "05 mart 2025-ci ildə Circuz Sea Breeze-də dünyaca məşhur Italiyan Sirki - Flavio'nun təqdim etdiyi unikal və möhtəşəm sirk şousu baş tutacaq! Bu tədbir hər yaşdan olan tamaşaçıları inanılmaz bir sirk təcrübəsinə dəvət edir. Sirkin sehrli dünyasında unudulmaz anlar yaşamağa hazır olun! Flavio və onun peşəkar komandası tamaşaçıları valeh edəcək möhtəşəm nömrələrlə səhnədə parlayacaq. \n\nTamaşaçılar bu unikal şouda nəfəs kəsən akrobatik hərəkətlər, dəqiqlik və balans ustaları olan ekvilibristlərin inanılmaz bacarıqları, tamaşanı unudulmaz edən klounların şən və yumor dolu çıxışları ilə qarşılaşacaqlar. Bundan əlavə, sirk proqramında xüsusi təlim keçmiş heyvanlar da yer alacaq. Sözəbaxan atlar, məzəli itlər və digər sirk heyvanları, tamaşaçıları heyran edəcək nömrələri ilə sirk sehrini tamamlayacaqlar. \n\nSirk şousu yalnız artistlərin bacarıqlı çıxışları ilə deyil, həm də xüsusi səhnə dekorasiyaları və gözoxşayan kostyumları ilə də fərqlənəcək. Hər anı böyük həyəcan və sürprizlərlə dolu olan bu tədbir, tamaşaçılara sanki başqa bir dünyaya səyahət edirmiş kimi hiss etdirəcək. Sirkin sehrli atmosferi, rəngarəng işıq effektləri və canlı musiqi müşayiəti ilə daha da möhtəşəm bir hala gətiriləcək.\n\nTədbir 15  başlayan bilet qiymətləri ilə hər kəsin bu fantastik şounun bir parçası olmasına imkan yaradır. Bu, həm ailəvi əyləncə üçün, həm də dostlarla unudulmaz vaxt keçirmək üçün mükəmməl bir fürsətdir. Sirk sənətinin ən yüksək səviyyədə təqdim edildiyi bu unikal şounu qaçırmayın! 05 mart 2025-ci ildə Circuz Sea Breeze-də baş tutacaq bu möhtəşəm şounun iştirakçısı olun və sirkin sehrinə qapılın!",
+         "maxAge":"3+ / Multilingual"
       },
-      {
-        "image": ["images/cart-9.jpg", "images/cart-9x.jpg"],
+
+        {
+          "category":"Populyar tədbirlər",
+        "image": ["images/cart-9.jpg", "Images/cart-41-2.png", "images/cart-9x.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "21 mart 2025",
         "eventLocation": "Heydər Əliyev Sarayı",
-        "price": "8 ₼-dan",
+        "price": "8 ",
         "artistName": "Novruz macərası",
-        "fullDateLocation": "21 mart 2025 • Heydər Əliyev Sarayı"
+        "fullDateLocation": "21 mart 2025 • Heydər Əliyev Sarayı",
+          "description": "21 mart 2025-ci ildə Heydər Əliyev Sarayında baş tutacaq 'Novruz macərası' adlı möhtəşəm tədbir hər kəsi baharın gəlişini coşqu ilə qarşılamağa dəvət edir! Novruzun qədim adət-ənənələrini yaşadan bu unikal şou həm uşaqlar, həm də böyüklər üçün unudulmaz bir bayram əhval-ruhiyyəsi vəd edir. Tədbir çərçivəsində tamaşaçılar ənənəvi Novruz personajları – Kosa və Keçəlin məzəli çıxışlarını izləyəcək, onların yumor dolu zarafatları hər kəsi ürəkdən güldürəcək. Bundan əlavə, səhnədə milli musiqi və rəqs qrupları çıxış edərək Novruzun zəngin mədəniyyətini tamaşaçılara təqdim edəcək. \n\nBu bayram şousunda, Novruzun rəmzləri olan səməni, boyalı yumurtalar, şirniyyatlar və baharın oyanışını simvolizə edən xüsusi dekorasiyalarla bəzədilmiş səhnə hər kəsi bayramın sehrinə salacaq. Tamaşaçılar həmçinin, müxtəlif teatr səhnəcikləri, akrobatik və rəqslə zəngin performanslarla bayramın dadını çıxara biləcəklər. Mədəni irsimizi əks etdirən bu tədbirdə qədim Novruz oyunları, xalq nağıllarından səhnələr və şənliklər hər kəsi bir araya gətirəcək.\n\nHeydər Əliyev Sarayında keçiriləcək bu unikal tədbir bahar bayramını daha da xüsusi edəcək və izləyicilərə gözəl xatirələr bəxş edəcək. Gözoxşayan səhnə dekorasiyaları, ənənəvi və müasir üslubda hazırlanan kostyumlar, musiqi və rəqsin möhtəşəm harmoniyası 'Novruz macərası' tədbirini ilin ən gözlənilən bayram şousuna çevirəcək. 8  başlayan biletlərlə hər kəs bu ecazkar atmosferin bir hissəsi ola bilər. Novruzun sehrini və sevincini birlikdə yaşamaq üçün bu unudulmaz tədbirdə iştirak etməyi qaçırmayın!",
+
+          "maxAge":"0+ / Azərbaycanca, Русский"
       },
       {
-        "image": ["images/cart-10.jpg", "images/cart-10x.jpg"],
+        "category":"Populyar tədbirlər",
+        "image": ["images/cart-10.jpg", "Images/cart-41-2.png", "images/cart-10x.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "03 aprel 2025",
         "eventLocation": "Hayal Kahvesi",
-        "price": "10 ₼-dan",
+        "price": "10",
         "artistName": "Ma vibe party",
-        "fullDateLocation": "03 aprel 2025 • Hayal Kahvesi"
+        "fullDateLocation": "03 aprel 2025 • Hayal Kahvesi",
+         "description": "03 aprel 2025-ci ildə Hayal Kahvesi-də keçiriləcək Ma Vibe Party, Bakı əyləncə dünyasına yeni bir səhifə əlavə edəcək və iştirakçılara unudulmaz bir gecə yaşadacaq. Bu möhtəşəm tədbir, musiqi, rəqs və əyləncənin mükəmməl birləşməsi ilə dolu olacaq. Ma Vibe Party, məşhur DJ Ma tərəfindən təqdim ediləcək, onun müasir musiqi üslubu və enerjisi ilə gecə boyunca atmosfer yüksək səviyyədə olacaq. Ma'nın xüsusi seçilmiş setləri, klub atmosferində əsl bayram təcrübəsi yaşadacaq. \n\nHər kəsin qəlbinə toxunacaq, bədənlərini ritmə uyğun hərəkət etdirməyə məcbur edəcək melodiyalarla dolu olacaq bu gecə, yalnız musiqi ilə deyil, həm də əyləncə ilə dolu bir gecədir. Elektron, house, techno, və müxtəlif müasir musiqi janrları ilə zövqünüzə uyğun ritmləri tapacaqsınız. Əyləncə dolu gecə, sizi həm yerli, həm də beynəlxalq səhnədən gələn ən yaxşı DJ-lərlə tanış edəcək.\n\nHayal Kahvesi-nin özünəməxsus, rahat və estetik atmosferi, əsl sənət və dizayn işləri ilə hər kəsi heyran edəcək. Tədbir yerinin xüsusi işıqlandırılması, səhnə dekorasiyaları və interaktiv elementləri ilə bu gecə gözlərinizin önündə canlanacaq. Həmçinin, yerli və beynəlxalq səhnələrdən gələn gözəl vizual təqdimatlar, tamaşaçıları əsl əyləncə dünyasına aparacaq. \n\nBu gecə, yalnız musiqi ilə deyil, həm də əyləncə dolu anlar yaşamağa imkan verəcək. Öz dostlarınızla bir yerdə əylənə biləcəyiniz, yeni insanlarla tanış ola biləcəyiniz, həyəcanla dolu bir təcrübə üçün Hayal Kahvesi sizi gözləyir. İştirakçılar 10 başlayan bilet qiymətləri ilə bu rəngarəng və maraqlı gecəni qaçırmamalıdırlar. Əyləncənin ən yüksək zirvəsində olmaq, rəqs etmək və Musiqinin ritminə dalmaq istəyirsinizsə, 03 aprel 2025-ci ildə keçiriləcək Ma Vibe Party-də bir araya gələcəyik! Həyatın ən yaxşı anlarını burada yaşayın!",
+
+         "maxAge":"10+ / Azərbaycanca, Русский"
       },
       {
-        "image": ["images/cart-11.jpg", "images/cart-11x.jpg"],
+        "category":"Populyar tədbirlər",
+        "image": ["images/cart-11.jpg", "Images/cart-41-2.png", "images/cart-11x.jpg"],
         "altText": "Dream Fest Poster",
         "eventDate": "13 aprel 2025",
         "eventLocation": "Baku Musiqi Akademiyasi",
-        "price": "15 ₼-dan",
+        "price": "15",
         "artistName": "Karmen - Flamenko",
-        "fullDateLocation": "13 aprel 2025 • Baku Musiqi Akademiyasi"
+        "fullDateLocation": "13 aprel 2025 • Baku Musiqi Akademiyasi",
+       "description": "13 aprel 2025-ci ildə Bakı Musiqi Akademiyasında, İspaniyanın ən məşhur flamenko sənətçilərindən biri olan Karmen ilə möhtəşəm bir flamenko gecəsi təşkil ediləcək! Bu unikal konsert proqramı, izləyiciləri İspaniyanın dərin və zəngin musiqi mədəniyyətinə aparacaq. Flamenko, hər bir hərəkətdə ehtiras, sevgi və kədər duygularını birləşdirən İspaniyanın ən böyük musiqi və rəqs janrıdır və Karmen bu sənətin incəliklərini yüksək səviyyədə təqdim edəcək.\n\nKarmen'in flamenko gecəsi, sadəcə musiqi və rəqs deyil, həm də bir hissiyat, bir həyat tərzidir. O, özünün güclü, duyğusal və həyəcanlı performansı ilə tamaşaçıları heyran edəcək. Flamenko rəqsləri ilə sanki musiqinin ritmi ruhlarına can verəcək, izləyicilər musiqinin incə çalarlarında öz hisslərini tapacaqlar. Karmen, bu gecə yalnız bir flamenko şousu təqdim etməyəcək, həm də tamaşaçıları fərqli bir dünyaya, İspaniyanın istiliyi və ehtirası ilə dolu bir təcrübəyə sürükləyəcək.\n\nBakı Musiqi Akademiyasının möhtəşəm səhnəsində keçiriləcək bu tədbir, öz gözəl atmosferi ilə iştirakçılara unudulmaz bir təcrübə yaşadacaq. Tədbirə gələn hər kəs, Karmen'in fərdi üslubunu, təbii cazibəsini və bu möhtəşəm rəqsləri birbaşa canlı olaraq izləmə şansı qazanacaq. Konsertin içində yer alacaq musiqilər, flamenko ritmləri ilə tam bir harmoniya yaradacaq və izləyiciləri əsl mənada heyran edəcək.\n\nKarmen’in təqdim etdiyi bu gecə, yalnız musiqi ilə deyil, həm də zəngin və gözəl səhnə dekorları, rəqslə harmoniya içində olan işıqlar və özəl kostyumlarla da özünəməxsus olacaq. İspaniyanın təbii gözəlliklərini və mədəniyyətini özündə birləşdirən flamenko sənəti, bu gecədə mükəmməl bir şəkildə təqdim ediləcək. Karmen’in hər bir hərəkəti və hər notu, tamaşaçılara mükəmməl bir duyğusal təcrübə təqdim edəcək.\n\nBilet qiymətləri 15 başlayır və hər kəsin bu möhtəşəm flamenko gecəsinə qatılmasına imkan verir. Tədbir, gözəl musiqinin və rəqsin qüvvətli birləşməsi ilə Bakı Musiqi Akademiyasının böyük səhnəsində təqdim ediləcək. Əgər sənətə, musiqiyə və rəqsə həssaslıqla yanaşırsınızsa, bu gecəni qaçırmaq olmaz. Karmen ilə flamenko dünyasına daxil olun və 13 aprel 2025-ci ildə Bakı Musiqi Akademiyasına gəlməyə hazır olun!",
+       "maxAge":"6+"
       }
     ]
   }

@@ -1,0 +1,235 @@
+{
+    "cartItems": [
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-35-1.jpg", "Images/cart-35-2.png", "Images/cart-35x.jpg"],
+        "altText": "Kukutiki - Image 1",
+        "eventDate": "27 aprel 2025",
+        "eventLocation": "Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
+        "price": "10",
+        "artistName": "Kukutiki Show",
+        "fullDateLocation": "27 aprel 2025 • Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
+        "description":" Kukutiki Show – Uşaqlar və Ailələr Üçün Möhtəşəm Əyləncə! – Sevimli Kukutiki qəhrəmanları ilə unudulmaz bir günə hazır olun! 🎶✨ Kukutiki Show uşaqlar və ailələr üçün nəzərdə tutulmuş, rəngarəng musiqi, interaktiv oyunlar və enerjili səhnə performansları ilə dolu möhtəşəm bir şoudur. Balacaların sevimli qəhrəmanları canlı ifalar, maraqlı hekayələr və şən rəqslərlə onları unudulmaz bir macəraya aparacaq. 27 aprel 2025-ci ildə Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonunda baş tutacaq bu tədbirdə uşaqlar əylənəcək, valideynlər isə nostalji dolu anlar yaşayacaq. 🎭 Məkan: Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu 📅 Tarix: 27 aprel 2025 💰 Bilet qiyməti: 10 Bu sehrli şounun bir hissəsi olmaq fürsətini qaçırmayın! 🌟",
+        "maxAge":"0+"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-36-1.jpg", "Images/cart-36-2.png", "Images/cart-36x.jpg"],
+        "altText": "Pizza Hut master-class - Image 1",
+        "eventDate": "01 mart 2025",
+        "eventLocation": "Pizza Hut",
+        "price": "15",
+        "artistName": "Pizza Hut",
+        "fullDateLocation": "01 mart 2025 • Pizza Hut",
+        "description": "Uşaqlar üçün \"Pizza Hut\" Master-Klass! 🍕✨ Uşaqlarınız \"Pizza Hut\" şəbəkəsinin dünya standartlarına uyğun maraqlı və əyləncəli pizza bişirmə prosesində iştirak edəcəklər! Peşəkar pizzamaker onlara mükəmməl pizzanın sirlərini öyrədəcək və hər birini gözəl kulinariya macərasına aparacaq.\n\nÖDƏNİŞƏ DAXİLDİR:\n- Brendləşdirilmiş uniforma (şənlik zamanı geyinmək üçün)\n- Pizza bişirmə master-klassı\n- Pizza bişirmə standartlarının öyrədilməsi\n- İçkilər (meyvə şirələri)\n- Evsayağı kartof\n- Öz bişirdiyiniz möhtəşəm pizza!\n\nBu master-klass həm də ən balaca qonaqlarımızı heyran edəcək! Unudulmaz anlar və ləzzətli pizza ilə dolu bir gün üçün bizimlə olun! 🎉",
+        "maxAge":"4-11 / Azərbaycanca"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-37-1.jpg", "Images/cart-37-2.png", "Images/cart-37x.jpg"],
+        "altText": "Elçin Abbasovun Elm Muzeyi - Image 1",
+        "eventDate": "25 fevral 2025",
+        "eventLocation": "Hədəf Liseyi",
+        "price": "10",
+        "artistName": "Elçin Abbasov",
+        "fullDateLocation": "25 fevral 2025 • Hədəf Liseyi",
+        "description": "İnteraktiv Elm Muzeyi, 150-dən çox eksponatı ilə elmin sehrini və həyatın suallarına cavablarını təqdim edir. Burada yalnız testlər deyil, elmin və kəşflərin necə həyatımıza təsir etdiyini görəcəksiniz. Muzeyimizdə, sənaye inqilabının təməlini qoyan buxar mühərrikindən tutmuş, ən müasir ion mühərrikinə qədər bir çox texnoloji inkişafları işlək vəziyyətdə görmək mümkündür. Elektromaqnetizm, sərbəstdəyişmə, Arximed qanunu, Tesla bobini, vakumun təsiri, işıq və səsin xüsusiyyətləri və daha çox fiziki anlayışı eksperimentlərdə yaxından kəşf edəcəksiniz. Bu təcrübə həm əyləncəli, həm də maarifləndirici olacaq! 🔬✨",
+        "maxAge":"8+ / Русский, Azərbaycanca"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-38-1.jpg", "Images/cart-38-2.png", "Images/cart-38x.jpg"],
+        "altText": "\"Durna balığı\" - Image 1",
+        "eventDate": "28 fevral 2025",
+        "eventLocation": "Azərbaycan Dövlət Kukla Teatrı",
+        "price": "5",
+        "artistName": "Azərbaycan Dövlət Kukla Teatrı",
+        "fullDateLocation": "28 fevral 2025 • Azərbaycan Dövlət Kukla Teatrı",
+        "description": "Rus folklorunun zəngin motivlərindən ilham alan yaradıcı heyət, “Durna balığının əmri ilə” adlı nağılın əsasında “Durna balığı” tamaşasını hazırlayıb. Teatrın rus bölməsində təqdim olunan bu tamaşa müxtəlif kukla mexanizmləri və canlı aktyor oyununun birləşməsindən yaranıb. Tamaşa, kiçik teatrsevərləri nağıllar aləminə aparacaq və onlara klassik qəhrəmanlarla tanışlıq imkanı yaradacaq. Uşaqlar və böyüklər üçün unudulmaz bir macəra təqdim edən bu tamaşa, hər yaşdan izləyiciləri cəlb edəcək.",
+        "maxAge":"3+ / Русский"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-39-1.jpg", "Images/cart-39-2.png", "Images/cart-39x.jpg"],
+        "altText": "İtalyan Sirki - Image 1",
+        "eventDate": "05 mart 2025",
+        "eventLocation": "Circus Sea Breeze",
+        "price": "15",
+        "artistName": "Flavio və Daniele Togni",
+        "fullDateLocation": "05 mart 2025 • Circus Sea Breeze",
+        "description": "🎪 İTALYAN SİRKİ CIRCUS SEA BREEZE-DƏ! 🎪 Bu mövsümdə Circus Sea Breeze səhnəsində Avropanın ən titullu sirk ailəsi – Togni sirk sülaləsi çıxış edəcək. 150 ildən artıq tarixi olan bu dünya şöhrətli sirk, milyonlarla tamaşaçının sevgisini qazanan möhtəşəm proqramı ilə ilk dəfə olaraq ölkəmizdə təqdim olunacaq. Benqal, qızıl və ağ pələnglərin möhtəşəm çıxışı, akrobatların həyəcanverici şouları, kanat ustalarının tarazlıq nümayişi, Ölüm Çarxı, oxatma şousu, italiyalı kloun, peşəkar rəqqaslar, möhtəşəm vokal ifaçısı və daha çoxu bu şouda manejə çıxacaq. ✨ 2 saatdan çox davam edən bu unudulmaz şou hər kəsi heyrətləndirəcək! 🚍 PULSUZ NƏQLİYYAT XİDMƏTİ! Tamaşaçıların rahatlığı üçün \"Koroğlu\" metro stansiyasından Circus Sea Breeze-ə və geriyə pulsuz avtobus xidməti təşkil olunacaq. 📢 ŞOUNUN TƏŞKİLATÇISI: \"Sirk Oskarı\" mükafatçısı Allahverdi İsrafilovdur.",
+        "maxAge":"3+ / Multilingual"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-40-1.jpg", "Images/cart-40-2.png", "Images/cart-40x.jpg"],
+        "altText": "Meri Poppins - Sehrli macəralar - Image 1",
+        "eventDate": "08 mart 2025",
+        "eventLocation": "Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
+        "price": "8",
+        "artistName": "Meri Poppins",
+        "fullDateLocation": "08 mart 2025 • Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
+        "description": "08 mart saat 11:00-da bütün ailə üçün nəzərdə tutulmuş 'Meri Poppins: Sehrli macəralar' musiqili tamaşasının premyerası keçiriləcək. Pamyela Trəversin povesti əsasında hazırlanan bu tamaşa '2 stul' Teatr Emalatxanası tərəfindən ilk dəfə Opera Studiyasının səhnəsində təqdim ediləcək! Sehrli dayə rolunda – əməkdar artist Nətəvan Hacıyeva.",
+        "maxAge":"3+ / Русский" 
+     
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-41-1.jpg", "Images/cart-41-2.png", "Images/cart-41x.jpg"],
+        "altText": "Три кота: День Варенья! - Lənkəran - Image 1",
+        "eventDate": "15 mart 2025",
+        "eventLocation": "Lənkəran Dövlət Dram Teatrı",
+        "price": "10",
+        "artistName": "Три кота",
+        "fullDateLocation": "15 mart 2025 • Lənkəran Dövlət Dram Teatrı",
+        "description": "🎉 'Üç Pişik' yenidən Lənkəranda! Ana Günündə hər kəs üçün əyləncəli bayram! 🎉\n\n📅 Tarix: 15 mart\n\n🕒 12:00 (Azərbaycan dilində)\n\n🕒 15:00 (Rus dilində)\n\n🎫 Biletlərin qiyməti: 10-15 manat\n\n📍 Məkan: Lənkəran Dövlət Dram Teatrı\n\n📣 Tamaşa Azərbaycan və Rus dillərində təqdim olunacaq!\n\n🔸 2 yaşdan 10 yaşa qədər uşaqlar üçün maraqlı olacaq👧🏻🧒🏻\n\n🔸 PULSUZ GİRİŞ: 5 yaşa qədər uşaqlar üçün 👧🏻🧒🏻 (valideyn üçün bilet zəruridir)\n\n🔸 QRUP ENDİRİMLƏR, həmçinin özəl korporativ nümayişlər mümkündür. 🔖\n\nƏn yaxşı yerləri əldə etməyə tələsin.🏃🏻 Zaman fərq etmədən keçir 🤓\n\n📲 Əlaqə: +994 50 354 90 54\n\n15 mart tarixində Dram Teatrıda balacalar sevimli qəhrəmanları – Karamelka, Korjik və Kompot ilə birlikdə 'Üç Pişik: Ad Günü' adlı möhtəşəm tamaşada görüşəcəklər! 🐾🍰\n\nBu dəfə pişik ailəsində vacib bir hadisə baş verir – Ananın Ad Günü! Pişiklər isə Anaya əsl sürpriz etmək qərarına gəlirlər! Mükəmməl bayram üçün isə şən rəqslər, maraqlı mahnılar və ən gözəl hədiyyələr lazımdır! 🎶🎁\n\nSizi və uşaqlarınızı unudulmaz bir şou gözləyir:\n\n✨ Tamaşaçı zalında interaktiv oyunlar;\n\n✨ Hamını coşduracaq rəqslər və mahnılar;\n\n✨ Ailəliklə əyləncə və sevinc dolu anlar.\n\nKaramelka, Korjik və Kompota Ana üçün ən şən bayramı hazırlamaqda kömək edin – rəqsləri öyrənin, bayram kartları çəkin və yaxınlarınıza sevinc bəxş etməyi öyrənin! ❤️\n\n💖 Uşaqlarınıza sehrli bir gün hədiyyə etmə fürsətini qaçırmayın!",
+        "maxAge":"0+ / Azərbaycanca, Русский"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-42-2.jpg", "Images/cart-41-2.png", "Images/cart-42x.jpg"],
+        "altText": "Nikulin Sirki Bakıda - Image 1",
+        "eventDate": "15 mart 2025",
+        "eventLocation": "Bakı İdman Sarayı",
+        "price": "11",
+        "artistName": "Nikulin Sirki",
+        "fullDateLocation": "15 mart 2025 • Bakı İdman Sarayı",
+        "description": "Məşhur Yuri Nikulin Sirki Bakıya qayıdır\n\nBakı Dövlət Sirkinin təşkilati dəstəyi ilə Moskvanın Svetnoy Bulvardakı məşhur Yuri Nikulin Sirki 10 ildən sonra yenidən, mart ayının 15-dən etibarən Bakıya gəlir.\n\nSirk proqramında Yuri Nikulin Sirkinin dünyaca məhşur, müxtəlif festivallarda mükafatlara layiq görülən artistləri çıxış edəcək. Macəra dolu sirk proqramında akrobat, gimnast və ekvilibristlər sizi heyran edəcəklər. Klounlar isə sizi ürəkdən güldürəcək. Əyləncə dolu sirk şousunda sözəbaxan ayı, it, meymun və su heyvanları sahiblərinin onlara verdiyi tapşırıqlarını mehribanlıqla yerinə yetirib, sadiq dost olduqlarını sərgiləyəcəklər.",
+        "maxAge":"3+ / Multilingual"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-43-1.jpg", "Images/cart-43-2.png", "Images/cart-43x.jpg"],
+        "altText": "Minecraft Şou - Image 1",
+        "eventDate": "16 mart 2025",
+        "eventLocation": "Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
+        "price": "9",
+        "artistName": "Minecraft Şou",
+        "fullDateLocation": "16 mart 2025 • Bakı Musiqi Akademiyası nəzdində Opera Studiyasının Konsert salonu",
+        "description": "Uşaqlarınız çox sevinəcək!\n\n16 mart tarixində Bakıda ilk dəfə interaktiv ailəvi tamaşa - 'Minecraft Şou'!\n\nStiv və Aleksin yeni macəraları hər kəsi Opera Studiyasının səhnəsində gözləyir! Bu unudulmaz şouda uşaqlar Minecraft aləmində səyahət edəcək, oyun dünyasında yeni dostlar tapacaq və maraqlı tapşırıqları həll edəcəklər. Şou tamaşaçıları interaktiv şəkildə öz qəhrəmanları ilə birlikdə müxtəlif əyləncəli sınaqlardan keçəcəklər. Bu, həm əyləncəli, həm də təhsil baxımından çox faydalı bir tamaşa olacaq!",
+        "maxAge":"3+ / Русский"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-44-1.jpg", "Images/cart-41-2.png", "Images/cart-44x.jpg"],
+        "altText": "Три кота: День Варенья! - Sumqayıt - Image 1",
+        "eventDate": "16 mart 2025",
+        "eventLocation": "Sumqayıt Dövlət Dram Teatrı",
+        "price": "10",
+        "artistName": "Три кота",
+        "fullDateLocation": "16 mart 2025 • Sumqayıt Dövlət Dram Teatrı",
+        "description": "🎉 'Üç Pişik' yenidən Sumqayıtda! Ana Günündə hər kəs üçün əyləncəli bayram! 🎉\n\n📅 Tarix: 16 mart\n\n🕒 12:00 (Azərbaycan dilində)\n\n🕒 15:00 (Rus dilində)\n\n🎫 Biletlərin qiyməti: 10-15 manat\n\n📍 Məkan: Sumqayıt Dövlət Dram Teatrı\n\n📣 Tamaşa Azərbaycan və Rus dillərində təqdim olunacaq!\n\n🔸 2 yaşdan 10 yaşa qədər uşaqlar üçün maraqlı olacaq👧🏻🧒🏻\n\n🔸 PULSUZ GİRİŞ: 5 yaşa qədər uşaqlar üçün 👧🏻🧒🏻 (valideyn üçün bilet zəruridir)\n\n🔸 QRUP ENDİRİMLƏR, həmçinin özəl korporativ nümayişlər mümkündür. 🔖\n\nƏn yaxşı yerləri əldə etməyə tələsin.🏃🏻 Zaman fərq etmədən keçir 🤓\n\n📲 Əlaqə: +994 50 354 90 54\n\n16 mart tarixində Dram Teatrıda balacalar sevimli qəhrəmanları – Karamelka, Korjik və Kompot ilə birlikdə 'Üç Pişik: Ad Günü' adlı möhtəşəm tamaşada görüşəcəklər! 🐾🍰\n\nBu dəfə pişik ailəsində vacib bir hadisə baş verir – Ananın Ad Günü! Pişiklər isə Anaya əsl sürpriz etmək qərarına gəlirlər! Mükəmməl bayram üçün isə şən rəqslər, maraqlı mahnılar və ən gözəl hədiyyələr lazımdır! 🎶🎁\n\nSizi və uşaqlarınızı unudulmaz bir şou gözləyir:\n\n✨ Tamaşaçı zalında interaktiv oyunlar;\n\n✨ Hamını coşduracaq rəqslər və mahnılar;\n\n✨ Ailəliklə əyləncə və sevinc dolu anlar.\n\nKaramelka, Korjik və Kompot Ana üçün ən şən bayramı hazırlamaqda kömək edin – rəqsləri öyrənin, bayram kartları çəkin və yaxınlarınıza sevinc bəxş etməyi öyrənin! ❤️\n\n💖 Uşaqlarınıza sehrli bir gün hədiyyə etmə fürsətini qaçırmayın!",
+        "maxAge":"0+ / Azərbaycanca, Русский"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-45-1.jpg", "Images/cart-41-2.png", "Images/cart-45x.jpg"],
+        "altText": "Aladdin dostlarla Novruz şənliyində - Image 1",
+        "eventDate": "20 mart 2025",
+        "eventLocation": "Rəşid Behbudov adına Dövlət Mahnı Teatrı",
+        "price": "5",
+        "artistName": "Aladdin",
+        "fullDateLocation": "20 mart 2025 • Rəşid Behbudov adına Dövlət Mahnı Teatrı",
+        "description": "PULSUZ GİRİŞ: 3 yaşa qədər uşaqlar üçün (valideyn üçün bilet zəruridir)\n\nCadugər Cəfər Bakıya gəlir! Cırtdan, Bahar qızı və Ələddin uşaqlarla birlikdə Cəfəri məğlub edib, Novruzu xilas etməlidirlər.",
+"maxAge":"0+ / Azərbaycanca"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-46-1.jpg", "Images/cart-41-2.png", "Images/cart-46x.jpg"],
+        "altText": "Novruz macərası - Image 1",
+        "eventDate": "21 mart 2025",
+        "eventLocation": "Heydər Əliyev Sarayı",
+        "price": "8",
+        "artistName": "Novruz Macərası",
+        "fullDateLocation": "21 mart 2025 • Heydər Əliyev Sarayı",
+        "description": "Heydər Əliyev Sarayı “Novruz macərası” yeni şou proqramla qarşınızda\n\n🗓️21, 22, 23, 24 mart 2025\n\nGündə üç seans: 12:00 | 15:00 | 18:00\n\n❗️Bilet alərkən diqqət edin: Rus dilində olan seanslar- 21 mart 15:00, 22 mart 12:00, 23 mart 18:00 və 24 mart 15:00\n\nQiymət: Sıraya görə 8 m-dan - 50 m- a qədər dəyişir\n\n📍 Heydər Əliyev Sarayı\n\n✅ Sizi foyedə də əlvan şənlik gözlədiyindən, tamaşaya bir saat tez gəlməyiniz məsləhətdir.\n\n3 yaşdan yuxarı uşaqlar və valideynlər üçün bilet tələb olunur.\n\n🎟️ Biletləri kassalar və İticket.az dan onlayn ala bilərsiniz\n\nBahar qızı və dostları Muradla Leyla Novruz bayramına hazırlaşırlar. Buz kralı isə çiçək açan gülləri, tumurcuqlanan budaqları, yaşıllaşan otları buza döndərərək onları Novruz bayramından məhrum etmək istəyir. Amma Bahar qızı və dostları bu buzları əridərək ən gözəl və təravətli milli bayramımızı birlikdə qeyd edəcəklər.\n\nProqram əlvan kostyumlarla, zəngin sirk elementləri ilə və oyun topları ilə dolu olacaq.",
+        "maxAge":"0+ / Azərbaycanca, Русский"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-47-1.jpg", "Images/cart-41-2.png", "Images/cart-47x.jpg"],
+        "altText": "Три кота: День Варенья! - Gəncə - Image 1",
+        "eventDate": "22 mart 2025",
+        "eventLocation": "Gəncə Dövlət Milli Dram Teatrı",
+        "price": "10",
+        "artistName": "Три кота",
+        "fullDateLocation": "22 mart 2025 • Gəncə Dövlət Milli Dram Teatrı",
+        "description": "🎉 \"Üç Pişik\" yenidən Gəncədə! Ana Günündə hər kəs üçün əyləncəli bayram! 🎉\n\n📅 Tarix: 22 mart\n\n🕒 11:00 (Azərbaycan dilində)\n\n🕒 14:00 (Rus dilində)\n\n🎫 Biletlərin qiyməti: 10-15 manat\n\n📍 Məkan: Gəncə Dövlət Milli Dram Teatrı\n\n📣 Tamaşa Azərbaycan və Rus dillərində təqdim olunacaq!\n\n🔸 2 yaşdan 10 yaşa qədər uşaqlar üçün maraqlı olacaq👧🏻🧒🏻\n\n🔸 PULSUZ GİRİŞ: 5 yaşa qədər uşaqlar üçün 👧🏻🧒🏻 (valideyn üçün bilet zəruridir)\n\n🔸 QRUP ENDİRİMLƏR, həmçinin özəl korporativ nümayişlər mümkündür. 🔖\n\nƏn yaxşı yerləri əldə etməyə tələsin.🏃🏻 Zaman fərq etmədən keçir 🤓\n\n📲 Əlaqə: +994 50 354 90 54\n\n22 mart tarixində Dram Teatrıda balacalar sevimli qəhrəmanları – Karamelka, Korjik və Kompot ilə birlikdə \"Üç Pişik: Ad Günü\" adlı möhtəşəm tamaşada görüşəcəklər! 🐾🍰\n\nBu dəfə pişik ailəsində vacib bir hadisə baş verir – Ananın Ad Günü! Pişiklər isə Anaya əsl sürpriz etmək qərarına gəlirlər! Mükəmməl bayram üçün isə şən rəqslər, maraqlı mahnılar və ən gözəl hədiyyələr lazımdır! 🎶🎁\n\nSizi və uşaqlarınızı unudulmaz bir şou gözləyir:\n\n✨ Tamaşaçı zalında interaktiv oyunlar;\n\n✨ Hamını coşduracaq rəqslər və mahnılar;\n\n✨ Ailəliklə əyləncə və sevinc dolu anlar.\n\nKaramelka, Korjik və Kompota Ana üçün ən şən bayramı hazırlamaqda kömək edin – rəqsləri öyrənin, bayram kartları çəkin və yaxınlarınıza sevinc bəxş etməyi öyrənin! ❤️\n\n💖 Uşaqlarınıza sehrli bir gün hədiyyə etmə fürsətini qaçırmayın!",
+        "maxAge":"0+ / Azərbaycanca, Русский"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-48-1.jpg", "Images/cart-41-2.png", "Images/cart-48x.jpg"],
+        "altText": "Три кота: День Варенья! - Mingəçevir - Image 1",
+        "eventDate": "23 mart 2025",
+        "eventLocation": "Mingəçevir Dövlət Dram Teatrı",
+        "price": "10",
+        "artistName": "Три кота",
+        "fullDateLocation": "23 mart 2025 • Mingəçevir Dövlət Dram Teatrı",
+        "description": "🎉 \"Üç Pişik\" yenidən Mingəçevirdə! Ana Günündə hər kəs üçün əyləncəli bayram! 🎉\n\n📅 Tarix: 23 mart\n\n🕒 11:00 (Azərbaycan dilində)\n\n🕒 14:00 (Rus dilində)\n\n🎫 Biletlərin qiyməti: 10-15 manat\n\n📍 Məkan: Mingəçevir Dövlət Dram Teatrı\n\n📣 Tamaşa Azərbaycan və Rus dillərində təqdim olunacaq!\n\n🔸 2 yaşdan 10 yaşa qədər uşaqlar üçün maraqlı olacaq👧🏻🧒🏻\n\n🔸 PULSUZ GİRİŞ: 5 yaşa qədər uşaqlar üçün 👧🏻🧒🏻 (valideyn üçün bilet zəruridir)\n\n🔸 QRUP ENDİRİMLƏR, həmçinin özəl korporativ nümayişlər mümkündür. 🔖\n\nƏn yaxşı yerləri əldə etməyə tələsin.🏃🏻 Zaman fərq etmədən keçir 🤓\n\n📲 Əlaqə: +994 50 354 90 54\n\n23 mart tarixində Dram Teatrıda balacalar sevimli qəhrəmanları – Karamelka, Korjik və Kompot ilə birlikdə \"Üç Pişik: Ad Günü\" adlı möhtəşəm tamaşada görüşəcəklər! 🐾🍰\n\nBu dəfə pişik ailəsində vacib bir hadisə baş verir – Ananın Ad Günü! Pişiklər isə Anaya əsl sürpriz etmək qərarına gəlirlər! Mükəmməl bayram üçün isə şən rəqslər, maraqlı mahnılar və ən gözəl hədiyyələr lazımdır! 🎶🎁\n\nSizi və uşaqlarınızı unudulmaz bir şou gözləyir:\n\n✨ Tamaşaçı zalında interaktiv oyunlar;\n\n✨ Hamını coşduracaq rəqslər və mahnılar;\n\n✨ Ailəliklə əyləncə və sevinc dolu anlar.\n\nKaramelka, Korjik və Kompota Ana üçün ən şən bayramı hazırlamaqda kömək edin – rəqsləri öyrənin, bayram kartları çəkin və yaxınlarınıza sevinc bəxş etməyi öyrənin! ❤️\n\n💖 Uşaqlarınıza sehrli bir gün hədiyyə etmə fürsətini qaçırmayın!",
+        "maxAge":"0+ / Azərbaycanca, Русский"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-77-1.jpg", "Images/cart-41-2.png", "Images/cart-49x.jpg"],
+        "altText": "Три кота: День Варенья! - Zaqatala - Image 1",
+        "eventDate": "24 mart 2025",
+        "eventLocation": "Mingəçevir Dövlət Dram Teatrı",
+        "price": "10",
+        "artistName": "Три кота",
+        "fullDateLocation": "24 mart 2025 •  Zaqatala Heydər Əliyev Mərkəzi",
+        "description": "🎉 \"Üç Pişik\" Zaqatalada! Ana Günündə hər kəs üçün əyləncəli bayram! 🎉\n\n📅 Tarix: 24 mart\n\n🕒 11:00 (Azərbaycan dilində)\n\n🕒 14:00 (Azərbaycan dilində)\n\n🎫 Biletlərin qiyməti: 10-15 manat\n\n📍 Məkan: Zaqatala Heydər Əliyev Mərkəzi\n\n📣 Tamaşa Azərbaycan və Rus dillərində təqdim olunacaq!\n\n🔸 2 yaşdan 10 yaşa qədər uşaqlar üçün maraqlı olacaq👧🏻🧒🏻\n\n🔸 PULSUZ GİRİŞ: 5 yaşa qədər uşaqlar üçün 👧🏻🧒🏻 (valideyn üçün bilet zəruridir)\n\n🔸 QRUP ENDİRİMLƏR, həmçinin özəl korporativ nümayişlər mümkündür. 🔖\n\nƏn yaxşı yerləri əldə etməyə tələsin.🏃🏻 Zaman fərq etmədən keçir 🤓\n\n📲 Əlaqə: +994 50 354 90 54\n\n24 mart tarixində Zaqatala Heydər Əliyev Mərkəzində balacalar sevimli qəhrəmanları – Karamelka, Korjik və Kompot ilə birlikdə \"Üç Pişik: Ad Günü\" adlı möhtəşəm tamaşada görüşəcəklər! 🐾🍰\n\nBu dəfə pişik ailəsində vacib bir hadisə baş verir – Ananın Ad Günü! Pişiklər isə Anaya əsl sürpriz etmək qərarına gəlirlər! Mükəmməl bayram üçün isə şən rəqslər, maraqlı mahnılar və ən gözəl hədiyyələr lazımdır! 🎶🎁\n\nSizi və uşaqlarınızı unudulmaz bir şou gözləyir:\n\n✨ Tamaşaçı zalında interaktiv oyunlar;\n\n✨ Hamını coşduracaq rəqslər və mahnılar;\n\n✨ Ailəliklə əyləncə və sevinc dolu anlar.\n\nKaramelka, Korjik və Kompota Ana üçün ən şən bayramı hazırlamaqda kömək edin – rəqsləri öyrənin, bayram kartları çəkin və yaxınlarınıza sevinc bəxş etməyi öyrənin! ❤️\n\n💖 Uşaqlarınıza sehrli bir gün hədiyyə etmə fürsətini qaçırmayın!"
+
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-78-1.jpg", "Images/cart-41-2.png", "Images/cart-78x.jpg"],
+        "altText": "Три кота: День Варенья! - Şəki - Image 1",
+        "eventDate": "25 mart 2025",
+        "eventLocation": "Şəki Dövlət Dram Teatrı",
+        "price": "10",
+        "artistName": "Три кота",
+        "fullDateLocation": "24 mart 2025 • Şəki Dövlət Dram Teatrı",
+        "description": "🎉 \"Üç Pişik\" yenidən Şəkidə! Ana Günündə hər kəs üçün əyləncəli bayram! 🎉\n\n📅 Tarix: 25 mart\n\n🕒 11:00 (Azərbaycan dilində)\n\n🕒 14:00 (Rus dilində)\n\n🎫 Biletlərin qiyməti: 10-15 manat\n\n📍 Məkan: Şəki Dövlət Dram Teatrı\n\n📣 Tamaşa Azərbaycan və Rus dillərində təqdim olunacaq!\n\n🔸 2 yaşdan 10 yaşa qədər uşaqlar üçün maraqlı olacaq👧🏻🧒🏻\n\n🔸 PULSUZ GİRİŞ: 5 yaşa qədər uşaqlar üçün 👧🏻🧒🏻 (valideyn üçün bilet zəruridir)\n\n🔸 QRUP ENDİRİMLƏR, həmçinin özəl korporativ nümayişlər mümkündür. 🔖\n\nƏn yaxşı yerləri əldə etməyə tələsin.🏃🏻 Zaman fərq etmədən keçir 🤓\n\n📲 Əlaqə: +994 50 354 90 54\n\n25 mart tarixində Dram Teatrıda balacalar sevimli qəhrəmanları – Karamelka, Korjik və Kompot ilə birlikdə \"Üç Pişik: Ad Günü\" adlı möhtəşəm tamaşada görüşəcəklər! 🐾🍰\n\nBu dəfə pişik ailəsində vacib bir hadisə baş verir – Ananın Ad Günü! Pişiklər isə Anaya əsl sürpriz etmək qərarına gəlirlər! Mükəmməl bayram üçün isə şən rəqslər, maraqlı mahnılar və ən gözəl hədiyyələr lazımdır! 🎶🎁\n\nSizi və uşaqlarınızı unudulmaz bir şou gözləyir:\n\n✨ Tamaşaçı zalında interaktiv oyunlar;\n\n✨ Hamını coşduracaq rəqslər və mahnılar;\n\n✨ Ailəliklə əyləncə və sevinc dolu anlar.\n\nKaramelka, Korjik və Kompota Ana üçün ən şən bayramı hazırlamaqda kömək edin – rəqsləri öyrənin, bayram kartları çəkin və yaxınlarınıza sevinc bəxş etməyi öyrənin! ❤️\n\n💖 Uşaqlarınıza sehrli bir gün hədiyyə etmə fürsətini qaçırmayın!",
+        "maxAge":"0+ / Azərbaycanca, Русский"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-79-1.jpg", "Images/cart-41-2.png", "Images/cart-79x.jpg"],
+        "altText": "Три кота: День Варенья! - Qəbələ - Image 1",
+        "eventDate": "26 mart 2025",
+        "eventLocation": "Qəbələ Dövlət Dram Teatrı",
+        "price": "10",
+        "artistName": "Три кота",
+        "fullDateLocation": "26 mart 2025 • Qəbələ rayon Mədəniyyət",
+        "description": "🎉 \"Üç Pişik\" Qəbələdə! Ana Günündə hər kəs üçün əyləncəli bayram! 🎉\n\n📅 Tarix: 26 mart\n\n🕒 11:00 (Azərbaycan dilində)\n\n🕒 14:00 (Rus dilində)\n\n🎫 Biletlərin qiyməti: 10-15 manat\n\n📍 Məkan: Qəbələ rayon Mədəniyyət Mərkəzi\n\n📣 Tamaşa Azərbaycan və Rus dillərində təqdim olunacaq!\n\n🔸 2 yaşdan 10 yaşa qədər uşaqlar üçün maraqlı olacaq👧🏻🧒🏻\n\n🔸 PULSUZ GİRİŞ: 5 yaşa qədər uşaqlar üçün 👧🏻🧒🏻 (valideyn üçün bilet zəruridir)\n\n🔸 QRUP ENDİRİMLƏR, həmçinin özəl korporativ nümayişlər mümkündür. 🔖\n\nƏn yaxşı yerləri əldə etməyə tələsin.🏃🏻 Zaman fərq etmədən keçir 🤓\n\n📲 Əlaqə: +994 50 354 90 54\n\n26 mart tarixində Qəbələ rayon Mədəniyyət Mərkəzində balacalar sevimli qəhrəmanları – Karamelka, Korjik və Kompot ilə birlikdə \"Üç Pişik: Ad Günü\" adlı möhtəşəm tamaşada görüşəcəklər! 🐾🍰\n\nBu dəfə pişik ailəsində vacib bir hadisə baş verir – Ananın Ad Günü! Pişiklər isə Anaya əsl sürpriz etmək qərarına gəlirlər! Mükəmməl bayram üçün isə şən rəqslər, maraqlı mahnılar və ən gözəl hədiyyələr lazımdır! 🎶🎁\n\nSizi və uşaqlarınızı unudulmaz bir şou gözləyir:\n\n✨ Tamaşaçı zalında interaktiv oyunlar;\n\n✨ Hamını coşduracaq rəqslər və mahnılar;\n\n✨ Ailəliklə əyləncə və sevinc dolu anlar.\n\nKaramelka, Korjik və Kompota Ana üçün ən şən bayramı hazırlamaqda kömək edin – rəqsləri öyrənin, bayram kartları çəkin və yaxınlarınıza sevinc bəxş etməyi öyrənin! ❤️\n\n💖 Uşaqlarınıza sehrli bir gün hədiyyə etmə fürsətini qaçırmayın!",
+        "maxAge":"0+ / Azərbaycanca, Русский"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-80-1.jpg", "Images/cart-41-2.png", "Images/cart-79x.jpg"],
+        "altText": "    Три кота: День Варенья! - Naxçıvan ",
+        "eventDate": "29 mart 2025",
+        "eventLocation": "Naxçıvan Dövlət Dram Teatrı",
+        "price": "10",
+        "artistName": "Три кота",
+        "fullDateLocation": "26 mart 2025 • Cəlil Məmmədquluzadə adına Naxçıvan Dövlət Milli Dram Teatrı",
+        "description": "🎉 \"Üç Pişik\" yenidən Naxçıvanda! Ana Günündə hər kəs üçün əyləncəli bayram! 🎉\n\n📅 Tarix: 29 mart\n\n🕒 11:00 (Azərbaycan dilində)\n\n🕒 14:00 (Azərbaycan dilində)\n\n🕒 17:00 (Rus dilində)\n\n🎫 Biletlərin qiyməti: 10-15 manat\n\n📍 Məkan: Naxçıvan Dövlət Milli Dram Teatrı\n\n📣 Tamaşa Azərbaycan və Rus dillərində təqdim olunacaq!\n\n🔸 2 yaşdan 10 yaşa qədər uşaqlar üçün maraqlı olacaq👧🏻🧒🏻\n\n🔸 PULSUZ GİRİŞ: 5 yaşa qədər uşaqlar üçün 👧🏻🧒🏻 (valideyn üçün bilet zəruridir)\n\n🔸 QRUP ENDİRİMLƏR, həmçinin özəl korporativ nümayişlər mümkündür. 🔖\n\nƏn yaxşı yerləri əldə etməyə tələsin.🏃🏻 Zaman fərq etmədən keçir 🤓\n\n📲 Əlaqə: +994 50 354 90 54\n\n29 mart tarixində Dram Teatrıda balacalar sevimli qəhrəmanları – Karamelka, Korjik və Kompot ilə birlikdə \"Üç Pişik: Ad Günü\" adlı möhtəşəm tamaşada görüşəcəklər! 🐾🍰\n\nBu dəfə pişik ailəsində vacib bir hadisə baş verir – Ananın Ad Günü! Pişiklər isə Anaya əsl sürpriz etmək qərarına gəlirlər! Mükəmməl bayram üçün isə şən rəqslər, maraqlı mahnılar və ən gözəl hədiyyələr lazımdır! 🎶🎁\n\nSizi və uşaqlarınızı unudulmaz bir şou gözləyir:\n\n✨ Tamaşaçı zalında interaktiv oyunlar;\n\n✨ Hamını coşduracaq rəqslər və mahnılar;\n\n✨ Ailəliklə əyləncə və sevinc dolu anlar.\n\nKaramelka, Korjik və Kompota Ana üçün ən şən bayramı hazırlamaqda kömək edin – rəqsləri öyrənin, bayram kartları çəkin və yaxınlarınıza sevinc bəxş etməyi öyrənin! ❤️\n\n💖 Uşaqlarınıza sehrli bir gün hədiyyə etmə fürsətini qaçırmayın!",
+        "maxAge":"0+ / Azərbaycanca, Русский"
+      },
+      {
+        "category":"Uşaqlar",
+        "image": ["Images/cart-81-1.jpg", "Images/cart-41-2.png", "Images/cart-81x.jpg"],
+        "altText": "       Три кота: День Варенья! ",
+        "eventDate": "05 aprel 2025",
+        "eventLocation": " Nizami Kino Mərkəzi",
+        "price": "10",
+        "artistName": "Три кота",
+        "fullDateLocation": "26 mart 2025 • Nizami Kino Mərkəzi",
+        "description": "🎉 \"Üç Pişik\" yenidən Bakıda! Ana Günündə hər kəs üçün əyləncəli bayram! 🎉\n\n📅 Tarix: 5 aprel\n\n🕒 12:00 (Azərbaycan dilində)\n\n🕒 15:00 (Rus dilində)\n\n🎫 Biletlərin qiyməti: 10-35 manat\n\n📍 Məkan: Nizami Kino Mərkəzi\n\n📣 Tamaşa Azərbaycan və Rus dillərində təqdim olunacaq!\n\n🔸 2 yaşdan 10 yaşa qədər uşaqlar üçün maraqlı olacaq👧🏻🧒🏻\n\n🔸 PULSUZ GİRİŞ: 5 yaşa qədər uşaqlar üçün 👧🏻🧒🏻 (valideyn üçün bilet zəruridir)\n\n🔸 QRUP ENDİRİMLƏR, həmçinin özəl korporativ nümayişlər mümkündür. 🔖\n\nƏn yaxşı yerləri əldə etməyə tələsin.🏃🏻 Zaman fərq etmədən keçir 🤓\n\n📲 Əlaqə: +994 50 354 90 54\n\n5 aprel tarixində Nizami Kino Mərkəzində balacalar sevimli qəhrəmanları – Karamelka, Korjik və Kompot ilə birlikdə \"Üç Pişik: Ad Günü\" adlı möhtəşəm tamaşada görüşəcəklər! 🐾🍰\n\nBu dəfə pişik ailəsində vacib bir hadisə baş verir – Ananın Ad Günü! Pişiklər isə Anaya əsl sürpriz etmək qərarına gəlirlər! Mükəmməl bayram üçün isə şən rəqslər, maraqlı mahnılar və ən gözəl hədiyyələr lazımdır! 🎶🎁\n\nSizi və uşaqlarınızı unudulmaz bir şou gözləyir:\n\n✨ Tamaşaçı zalında interaktiv oyunlar;\n\n✨ Hamını coşduracaq rəqslər və mahnılar;\n\n✨ Ailəliklə əyləncə və sevinc dolu anlar.\n\nKaramelka, Korjik və Kompota Ana üçün ən şən bayramı hazırlamaqda kömək edin – rəqsləri öyrənin, bayram kartları çəkin və yaxınlarınıza sevinc bəxş etməyi öyrənin! ❤️\n\n💖 Uşaqlarınıza sehrli bir gün hədiyyə etmə fürsətini qaçırmayın!",
+        "maxAge":"0+ / Azərbaycanca, Русский"
+      }
+      
+    ]
+  }
+  

@@ -1,0 +1,119 @@
+{
+"cartItems": [
+    {
+        "category":"Idman",
+
+    "image": ["images/cart-92.jpg", "Images/cart-41-2.png",  "images/cart-92x.jpg"],
+    "altText": "Dream Fest Poster",
+    "eventDate": "19 mart 2025",
+    "eventLocation": " Sərhədçi İdman Mərkəzi",
+    "price": "5",
+    "artistName": "NTD BK - Sabah BK",
+    "fullDateLocation": "19 mart 2025 •  Sərhədçi İdman Mərkəzi",
+"description": "NTD BK və Sabah BK arasında keçiriləcək bu möhtəşəm futbol qarşılaşması Sərhədçi İdman Mərkəzində baş tutacaq. 19 mart 2025-ci il tarixində futbol azarkeşlərini unudulmaz və gərgin mübarizə gözləyir. Ailə və dostlarla bir yerdə bu həyəcan dolu oyunu canlı izləmək fürsətini qaçırmayın!",
+"maxAge":"0+"
+
+},
+{
+    "category":"Idman",
+   "image": ["images/cart-93.jpg", "Images/cart-41-2.png", "images/cart-93x.jpg"],
+    "alt": "Slide 2",
+    "altText": "Sərhədçi BK - Neftçi İK",
+    "eventDate": "19 mart 2025",
+    "eventLocation": "Sərhədçi İdman Mərkəzi",
+    "price": "5",
+    "artistName": " Sərhədçi BK - Neftçi İK",
+    "fullDateLocation": "19 mart 2025 •  Sərhədçi İdman Mərkəzi",
+    "description": "Sərhədçi BK və Neftçi İK arasında keçiriləcək bu maraqlı qarşılaşma idmansevərləri Sərhədçi İdman Mərkəzinə toplayır. 19 mart 2025-ci ildə baş tutacaq bu oyun futbol həvəskarlarına rəqabət dolu və həyəcanlı anlar vəd edir. Sən də bu fürsəti qaçırma və gərgin mübarizəyə canlı şahid ol!",
+  "maxAge": "0+"
+  },
+  
+    
+  {
+    "category":"Idman",
+
+   "image": ["images/cart-94.jpg", "Images/cart-41-2.png", "images/cart-94x.jpg"],
+    "alt": "Slide 2",
+    "altText": " Bakı Olimpiya İdman Kompleksi",
+    "eventDate": "20 mart 2025",
+    "eventLocation": "     Bakı Olimpiya İdman Kompleksi ",
+    "price": "5",
+    "artistName": "    Bədii Gimnastika Üzrə “Ocaq Sport” Klubu və Şuşa Gənclər İdman Məktəbinin Birgə Açıq&nbsp;Birinciliyi",
+    "fullDateLocation": "20 mart 2025 •  Bakı Olimpiya İdman Kompleksi",
+    "description": "20 mart 2025-ci ildə Bakı Olimpiya İdman Kompleksində baş tutacaq bu möhtəşəm idman tədbirində Bədii Gimnastika üzrə “Ocaq Sport” Klubu və Şuşa Gənclər İdman Məktəbinin birgə açıq birinciliyinə şahid olacaqsınız. Gənc və istedadlı gimnastların sərgiləyəcəyi zərif və peşəkar çıxışlar idman və sənətin mükəmməl sintezini nümayiş etdirəcək. Bu yarış idman həvəskarları üçün ilhamverici bir atmosfer və yüksək səviyyəli rəqabət vəd edir. Ailəlikcə izləyə biləcəyiniz tədbir, uşaqlar və böyüklər üçün unudulmaz bir gün olacaq. İdmanın ruhunu yaşamaq və Azərbaycan gimnastikasının inkişafına dəstək olmaq üçün sən də bu gözəl tədbirdə iştirak et!",
+
+        
+         "maxAge": "4+ / Azərbaycanca"
+  },
+  
+    
+  {
+    "category":"Idman",
+    "image": ["images/cart-95.jpg", "Images/cart-41-2.png", "images/cart-95x.jpg"],
+    "altText": "Azərbaycan - Haiti",
+    "eventDate": "22 mart 2025",
+    "eventLocation": "Mehdi Hüseynzadə adına Sumqayıt şəhər stadionu",
+    "price": "2",
+    "artistName": "Azərbaycan - Haiti",
+    "fullDateLocation": "22 mart 2025 •  Mehdi Hüseynzadə adına Sumqayıt şəhər stadionu",
+     
+"description": "Futbol sevərləri 22 mart 2025-ci il tarixində unudulmaz bir beynəlxalq qarşılaşma gözləyir! Mehdi Hüseynzadə adına Sumqayıt şəhər stadionunda Azərbaycan və Haiti milli komandaları qarşı-qarşıya gələcək. Bu maraqlı oyun hər iki komandanın azarkeşlərinə böyük həyəcan və idman ruhu yaşadacaq. Ailə və dostlarınızla birlikdə stadion atmosferini hiss etmək və komandamıza dəstək olmaq üçün bu fürsəti qaçırmayın! İştirak üçün bilet qiymətləri 2 başlayır, həm uşaqlar, həm də böyüklər üçün uyğun, 6+ yaşdan etibarən hər kəs üçün açıqdır. Futbolun əsl coşqusunu yaşamaq üçün sən də yerini al!",
+
+      "maxAge":"6+"
+  },
+  {
+    "category":"Idman",
+    "image": ["images/cart-96.jpg", "Images/cart-41-2.png", "images/cart-96x.jpg"],
+    "altText": "Azərbaycan - Belarus",
+    "eventDate": "25 mart 2025",
+    "eventLocation": "Bank Respublika Arena",
+    "price": "2",
+    "artistName": "Azərbaycan - Belarus",
+    "fullDateLocation": "25 mart 2025 • Bank Respublika Arena",
+     
+"description": "Futbol sevərləri 25 mart 2025-ci il tarixində unudulmaz bir beynəlxalq qarşılaşma gözləyir! Mehdi Hüseynzadə adına Sumqayıt şəhər stadionunda Azərbaycan və Belarus milli komandaları qarşı-qarşıya gələcək. Bu maraqlı oyun hər iki komandanın azarkeşlərinə böyük həyəcan və idman ruhu yaşadacaq. Ailə və dostlarınızla birlikdə stadion atmosferini hiss etmək və komandamıza dəstək olmaq üçün bu fürsəti qaçırmayın! İştirak üçün bilet qiymətləri 2 başlayır, həm uşaqlar, həm də böyüklər üçün uyğun, 6+ yaşdan etibarən hər kəs üçün açıqdır. Futbolun əsl coşqusunu yaşamaq üçün sən də yerini al!",
+
+      "maxAge":"6+"
+  },
+  {
+    "category":"Idman",
+    "image": ["Images/cart-52-1.jpg", "Images/cart-41-2.png", "Images/cart-52x.jpg"],
+    "altText": "ALT_TEXT",
+    "eventDate": "28 mart 2025",
+    "eventLocation": "Milli Gimnastika Arenası",
+    "price": "7",
+    "artistName": "Bədii gimnastika üzrə beynəlxalq turnir, AGF Trophy",
+    "fullDateLocation": "28 mart 2025 • Milli Gimnastika Arenası",
+    "description": "Bu beynəlxalq turnirdə dünya səviyyəli gimnastlar iştirak edəcək və ən çətin hərəkətlərdəki bacarıqlarını nümayiş etdirəcəklər. AGF Trophy, bədii gimnastikanın ən prestijli tədbirlərindən biridir və burada hər bir nümayiş, idmanın incəliklərini və gözəlliyini əks etdirəcək.",
+    "maxAge":"6+ / Multilingual" 
+  },  {
+    "category":"Idman",
+    "image": ["Images/cart-97.jpg", "Images/cart-41-2.png", "Images/cart-97x.jpg"],
+    "altText": "ALT_TEXT",
+    "eventDate": "29 mart 2025",
+    "eventLocation": "Neftçi Arena",
+    "price": "3",
+    "artistName": " Neftçi PFK - Araz-Naxçıvan PFK",
+    "fullDateLocation": "28 mart 2025 • Neftçi Arena",
+    "description": "Azərbaycan Premyer Liqasının növbəti turunda Neftçi PFK və Araz-Naxçıvan PFK komandaları 28 mart 2025-ci il tarixində Neftçi Arenada qarşılaşacaq. İki güclü komandanın meydana çıxacağı bu görüşdə futbol həvəskarlarını gərgin və həyəcan dolu anlar gözləyir. Neftçi Arenanın möhtəşəm atmosferində sevdiklərinlə birlikdə komandalara dəstək ol və bu maraqlı qarşılaşmanı canlı izləmək fürsətini qaçırma! Biletlər cəmi 3 başlayır və tədbir 6+ yaşdan etibarən hər kəs üçün açıqdır. Futbolun ritmini hiss et və unudulmaz bir gün yaşa!",
+ "maxAge":"6+" 
+  },
+  {
+    "category":"Idman",
+    "image": ["Images/cart-98.jpg", "Images/cart-41-2.png", "Images/cart-98x.jpg"],
+    "altText": "ALT_TEXT",
+    "eventDate": "29 mart 2025",
+    "eventLocation": "Mehdi Hüseynzadə adına Sumqayıt şəhər stadionu",
+    "price": "2",
+    "artistName": "  Sumqayıt FK - Sabah FK",
+    "fullDateLocation": "28 mart 2025 • Mehdi Hüseynzadə adına Sumqayıt şəhər stadionu",
+    "description": "Azərbaycan Premyer Liqasının növbəti turunda Sumqayıt FK - Sabah FKkomandaları 28 mart 2025-ci il tarixində Neftçi Arenada qarşılaşacaq. İki güclü komandanın meydana çıxacağı bu görüşdə futbol həvəskarlarını gərgin və həyəcan dolu anlar gözləyir. Neftçi Arenanın möhtəşəm atmosferində sevdiklərinlə birlikdə komandalara dəstək ol və bu maraqlı qarşılaşmanı canlı izləmək fürsətini qaçırma! Biletlər cəmi 3 başlayır və tədbir 6+ yaşdan etibarən hər kəs üçün açıqdır. Futbolun ritmini hiss et və unudulmaz bir gün yaşa!",
+ "maxAge":"6+" 
+  }
+
+
+
+
+]
+}
+  

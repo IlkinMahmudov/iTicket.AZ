@@ -1,0 +1,67 @@
+[
+    {
+        "category":"Populyar tədbirlər",
+    "id": 1,
+    "image": ["images/person-1.jpg", "Images/cart-41-2.png",  "images/cart-2x.jpg"],
+    "altText": "Dream Fest Poster",
+    "eventDate": "14 fevral 2025",
+    "eventLocation": "Baki Konqres",
+    "price": "30",
+    "artistName": "Alsu",
+    "fullDateLocation": "14 fevral 2025 • Baku Konqres Merkezi",
+"description": "Möhtəşəm xəbər! Rusiyanın ən sevilən və istedadlı müğənnilərindən biri, Alsu, ilk dəfə Bakıda konsert verəcək! 14 fevral - Sevgililər Günü münasibətilə, Bakı Konqres Mərkəzində baş tutacaq bu xüsusi tədbir, onun musiqisinə aşiq olan hər kəs üçün unudulmaz bir gecəyə çevriləcək. Alsu, illərdir ki, dərin və duyğulu səsi ilə dinləyicilərinə xüsusi anlar yaşadır. Onun mahnıları, xüsusilə “Zimniy Son”, “Vesna”, “Razluka” və digər hitləri, Azərbaycan musiqi sevərləri tərəfindən də çox sevilir. \n\nAlsu, yalnız Rusiyanın deyil, eyni zamanda beynəlxalq səhnənin parlaq ulduzlarından biridir. Onun musiqi duyumu və səhnə performansı, hər çıxışı ilə dinləyicilərini dərindən təsirləndirir. Hər ifasında, sözlərdən daha çox duyğular və həyat hekayələri təqdim edir. Alsu'nun musiqisi, həmçinin onun özünün şəxsi təcrübələrindən ilham alır, bu da onun hər mahnısına xüsusi bir dərinlik və anlam qatır. \n\nBakı Konqres Mərkəzində keçiriləcək bu möhtəşəm konsert, Alsu'nun çox gözlənilən ifalarından biri olacaq. Sevgililər Günü kimi xüsusi bir gündə onun səhnə performansına şahid olmaq, romantik atmosferi yaşamaq, və sevgi dolu musiqilərlə sanki zamanın dayandığını hiss etmək hər musiqi həvəskarının arzusudur. \n\nAlsu'nun səhnə bacarıqları və xüsusi cazibəsi ilə bu gecə çoxdan gözlənilən bir tədbirə çevriləcək. Hər bir konserti özünəməxsus və unikal olan Alsu, səhnədəki cazibəsi ilə tamaşaçılara yalnız musiqi deyil, həm də xüsusi bir ruhsal təcrübə təqdim edəcək. Bu gecəni qaçırmamaq üçün biletinizi indidən əldə edin və bu unudulmaz anların bir hissəsi olun!", 
+"maxAge":"6+"
+
+},
+{
+    "category":"Tamaşalar",
+    "id": 2,
+   "image": ["images/person-2.jpg", "Images/cart-41-2.png", "images/person-2-1.jpg"],
+    "alt": "Slide 2",
+    "altText": "Dream Fest Poster",
+    "eventDate": "24 iyul 2025",
+    "eventLocation": "Circus Sea Breeze",
+    "price": "15",
+    "artistName": "DREAM FEST 2025",
+    "fullDateLocation": "24 iyul 2025 • Circus Sea Breeze",
+    "description": "🎪 İTALYAN SİRKİ CIRCUS SEA BREEZE-DƏ! 🎪 Bu mövsümdə Circus Sea Breeze səhnəsində Avropanın ən titullu sirk ailəsi – Togni sirk sülaləsi çıxış edəcək. 150 ildən artıq tarixi olan bu dünya şöhrətli sirk milyonlarla tamaşaçının sevgisini qazanan möhtəşəm proqramı ilə ilk dəfə olaraq ölkəmizdə təqdim olunacaq. Benqal, qızıl və ağ pələnglərin möhtəşəm çıxışı, akrobatların həyəcanverici şouları, kanat ustalarının tarazlıq nümayişi, Ölüm Çarxı, oxatma şousu, italiyalı kloun, peşəkar rəqqaslar, möhtəşəm vokal ifaçısı və daha çoxu bu möhtəşəm şouda manejə çıxacaq. ✨ Dünyanın ən məşhur sirk ustalarının iştirakı ilə 2 saatdan çox davam edən bu unudulmaz şou hər kəsi heyrətləndirəcək! 🚍 PULSUZ NƏQLİYYAT XİDMƏTİ! Tamaşaçıların rahatlığı üçün \"Koroğlu\" metro stansiyasından Circus Sea Breeze-ə və geriyə pulsuz avtobus xidməti təşkil olunacaq. 📢 ŞOUNUN TƏŞKİLATÇISI: Bu möhtəşəm tədbirin təşkilatçısı \"Sirk Oskarı\" mükafatçısı Allahverdi İsrafilovdur.",
+    "maxAge": "3+ / Multilingual"
+  },
+  
+    
+  {
+    "category":"Uşaqlar",
+    "id":3,
+   "image": ["images/person-3.jpg", "Images/cart-41-2.png", "images/person-3-1.jpg"],
+    "alt": "Slide 2",
+    "altText": "Dream Fest Poster",
+    "eventDate": "28 aprel 2025 ",
+    "eventLocation": "Baku Crystal Hall",
+    "price": "63",
+    "artistName": "DREAM FEST 2025",
+    "fullDateLocation": "28 aprel 2025 • Baku Crystal Hall",
+    
+        "description": "OneRepublic, vokalist və bəstəkar Ryan Tedder, gitaristlər Zach Filkins və Drew Brown, klaviatura ifaçısı Brian Willett, basçı və violonçel ifaçısı Brent Kutzle, nağara ifaçısı Eddie Fisherdən ibarət olan məşhur bir qrupdur. 2007-ci ildə ilk albomu Dreaming Out Loud ilə çıxış edən qrup, bu albomda yer alan 'Apologize' sinqlını ilə geniş populyarlıq qazandı. 'Apologize' sinqlı, GRAMMY® mükafatına namizəd olmuş və rəqəmsal satış rekordları qırmışdır. 2009-cu ildə isə ikinci albomları Waking Up işıq üzü görmüş, bu albom 'All the Right Moves', 'Secrets' və 'Good Life' kimi hitlərdən ibarət olmuşdur. 2013-cü ildə çıxan Native albomu platin sertifikatı qazanmış və 'Counting Stars' adlı hitlə daha geniş tanınmışdır. 2016-cı ildə qrup dördüncü albomu Oh My My ilə yenə uğurlu bir addım atmışdır. 2024-cü ildə isə OneRepublic, Meduza elektron qrupu və alman sənətçi Leony ilə birlikdə UEFA EURO 2024-ün rəsmi himni olan 'Fire' adlı mahnını təqdim etmişdir. Sonuncu albomu Artificial Paradise isə 12 iyul 2024-cü ildə çıxmış və 'Hurt' adlı sinqlını içərisində təqdim etmişdir.\n\nHəmçinin, iTicket.AZ saytından Mastercard kart sahibləri üçün təklif edilən hədiyyə - 'Növbəsiz keçid' (Fast Track) imkanı mövcuddur. Bilet sahibləri, Telegram üzərindən Mastercard Chatbot ( https://t.me/MCassistancebot ) xidmətinə keçid edərək, konsertə bir neçə həftə qalmış bu keçid xidmətini əldə edəcəklər.\n\nDiqqət:\n- Bu tədbirə alınan biletlər dəyişdirilmir və ya geri qaytarılmır.\n- Biletlərin qiymətinə əlavə olaraq 10% xidmət haqqı tətbiq ediləcəkdir.\n- OnRepublic konsertinə biletlər yalnız QR bilet və ya fiziki bilet şəklində şəhərin kassalarında satılır. QR biletlər yalnız konsert günü aktiv olacaq və istifadə etmək üçün iTicket.AZ mobil tətbiqində şəxsi hesabınıza daxil olmalısınız.",
+         "maxAge": "6+ / English"
+  },
+  
+    
+  {
+    "category":"Populyar tədbirlər",
+    "id":"4",
+    "image": ["images/person-4.jpg", "Images/cart-41-2.png", "images/cart-9x.jpg"],
+    "altText": "Dream Fest Poster",
+    "eventDate": "21 mart 2025",
+    "eventLocation": "Heydər Əliyev Sarayı",
+    "price": "8 ",
+    "artistName": "Novruz macərası",
+    "fullDateLocation": "21 mart 2025 • Heydər Əliyev Sarayı",
+      "description": "21 mart 2025-ci ildə Heydər Əliyev Sarayında baş tutacaq 'Novruz macərası' adlı möhtəşəm tədbir hər kəsi baharın gəlişini coşqu ilə qarşılamağa dəvət edir! Novruzun qədim adət-ənənələrini yaşadan bu unikal şou həm uşaqlar, həm də böyüklər üçün unudulmaz bir bayram əhval-ruhiyyəsi vəd edir. Tədbir çərçivəsində tamaşaçılar ənənəvi Novruz personajları – Kosa və Keçəlin məzəli çıxışlarını izləyəcək, onların yumor dolu zarafatları hər kəsi ürəkdən güldürəcək. Bundan əlavə, səhnədə milli musiqi və rəqs qrupları çıxış edərək Novruzun zəngin mədəniyyətini tamaşaçılara təqdim edəcək. \n\nBu bayram şousunda, Novruzun rəmzləri olan səməni, boyalı yumurtalar, şirniyyatlar və baharın oyanışını simvolizə edən xüsusi dekorasiyalarla bəzədilmiş səhnə hər kəsi bayramın sehrinə salacaq. Tamaşaçılar həmçinin, müxtəlif teatr səhnəcikləri, akrobatik və rəqslə zəngin performanslarla bayramın dadını çıxara biləcəklər. Mədəni irsimizi əks etdirən bu tədbirdə qədim Novruz oyunları, xalq nağıllarından səhnələr və şənliklər hər kəsi bir araya gətirəcək.\n\nHeydər Əliyev Sarayında keçiriləcək bu unikal tədbir bahar bayramını daha da xüsusi edəcək və izləyicilərə gözəl xatirələr bəxş edəcək. Gözoxşayan səhnə dekorasiyaları, ənənəvi və müasir üslubda hazırlanan kostyumlar, musiqi və rəqsin möhtəşəm harmoniyası 'Novruz macərası' tədbirini ilin ən gözlənilən bayram şousuna çevirəcək. 8 ₼-dan başlayan biletlərlə hər kəs bu ecazkar atmosferin bir hissəsi ola bilər. Novruzun sehrini və sevincini birlikdə yaşamaq üçün bu unudulmaz tədbirdə iştirak etməyi qaçırmayın!",
+
+      "maxAge":"0+ / Azərbaycanca, Русский"
+  }
+
+
+
+  ]
+  
